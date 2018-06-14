@@ -1,0 +1,101 @@
+<section id="CompatCheck" class="compatibility-check compat-container container">
+        <div class="angle-light-blue"></div>
+    
+        {%- for element in site.compatibility-check[page.lang] -%}
+        <div class="row">
+    
+            <div class="col-12 compat-fix">
+    
+                <div class="intro">
+                    <h1>{{ element[1].section_title }}</h1>
+                    <p>{{ element[1].section_p }}</p>
+                </div>
+    
+                <div class="select-box">
+
+                    <div class="select-wrap">
+                        
+                        <div class="select-col">
+                            <div class="select-title">{{ element[1].car_year }}</div>
+                            <div class="year">
+                                <div class="text dropdown-button">
+                                    <div>{{ element[1].year}}</div>
+                                    <img src="{{ site.baseurl }}/assets/chevron-down-small.svg" width="16" height="24"/>
+                                </div>
+                                <ul class="dropdown-content text" id="year"></ul>
+                            </div>
+                        </div>
+        
+                        <div class="select-col">
+                            <div class="select-title">{{ element[1].car_make }}</div>
+                            <div class="make">
+                                <div class="text dropdown-button">
+                                    <div>{{ element[1].make}}</div>
+                                    <img src="{{ site.baseurl }}/assets/chevron-down-small-disabled.svg" width="16" height="24"/>
+                                </div>
+                                <ul class="dropdown-content text" id="carmake"></ul>
+                            </div>
+                        </div>
+            
+                        <div class="select-col">
+                            <div class="select-title">{{ element[1].car_model }}</div>
+                            <div class="model">
+                                <div class="text dropdown-button">
+                                    <div>{{ element[1].model}}</div>
+                                    <img src="{{ site.baseurl }}/assets/chevron-down-small-disabled.svg" width="16" height="24"/>
+                                </div>
+                                <ul class="dropdown-content text" id="carmodel"></ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="loader-wrap">
+                    <div class="loader spinner">Loading...</div>
+                </div>
+                
+            
+
+                <div class="result-pos">
+                    <img class="mt-4 ml-4" src="{{ site.baseurl }}/assets/result-positive.svg"/>                    
+                    <p class="pl-4 pt-3 pr-3 pb-3">{{ element[1].section_positive }}</p>
+                        {% assign pages=site.pages | where:"lang", page.lang %}
+                        {%- for my_page in pages -%}
+                            {%- if my_page.ref == 'price' -%}  
+                                <a href="{{ my_page.url | prepend: site.baseurl }}" class="btn btn-primary btn-lg ml-4 mb-4" role="button">{{ site.cta[page.lang].button }}</a>
+                            {%- endif -%}
+                        {%- endfor -%}   
+                </div>
+
+                <div class="result-neg">
+                    <img class="mt-4 ml-4" src="{{ site.baseurl }}/assets/result-negative-red.svg"/>
+                    <p class="pl-4 pt-3 pr-3 pb-3">{{ element[1].section_negative }}</p>
+                </div>
+
+
+                    
+            </div>
+
+            <div class="col-12 hand-container">
+
+                <div class="hand-wrap">
+                    <img src="{{ site.baseurl }}/assets/as-female-hand-{{page.lang}}.png" class="img-fluid" alt="autoSense">
+                </div>    
+
+            </div>
+    
+    
+        </div>
+
+        
+        {%- endfor -%}
+    
+        <div class="angle-white"></div>
+    
+        
+    </section>
+    
+    
+    
+    

@@ -1,0 +1,64 @@
+<section id="{{ site.nav[page.lang].how-it-works.url | remove: "#" }}" class="how-to-do container">
+  
+    {%- for element in site.how-to-do[page.lang] -%}
+    
+        <div class="intro">
+            <h1>{{ element[1].section_title }}</h1>
+        </div>
+
+        <div id="how-to-do-item" class="row no-gutters my-5">
+            
+            <!-- <img class="card-icon" src="{{ site.baseurl }}/assets/how-to-do-play.svg" alt="autoSense - {{ element[1].section_title }}"> -->
+            <div class="col-lg-6">
+                <div class="card">
+
+                    <div class="card-img-container">
+                        <img class="card-img-left img-fluid" src="{{ site.baseurl }}/assets/how-to-do.jpg" alt="autoSene - {{ element[1].section_title }}">
+                    </div>
+
+                </div>
+            </div>
+
+                
+            <div class="col-lg-6 d-flex align-items-center">
+                <p class="p-3">{{ element[1].section_p }}</p>
+            </div>               
+
+        </div>
+        
+        
+        
+        <div class="d-flex flex-wrap justify-content-center mb-3">
+            <!-- <div class="p-2">            
+                <a href="#" class="btn btn-primary btn-lg" role="button">{{ element[1].section_btn_watch }}</a>
+            </div> -->
+            <div class="p-2">
+                {% assign pages=site.pages | where:"lang", page.lang %}
+                {%- for my_page in pages -%}
+                    {%- if my_page.ref == 'faq' -%}
+                        <a href="{{ my_page.external-link }}" target="_blank" class="btn btn-primary btn-lg" role="button">{{ element[1].section_btn_faq }}</a>
+                    {%- endif -%}
+                {%- endfor -%}
+            </div>
+        </div>
+        
+        <div class="row">
+
+            <div class="col-8 offset-2 col-sm offset-sm-0 mb-5 mb-sm-0">
+                <img src="{{ site.baseurl }}/assets/how-to-do-step-1.png" class="img-fluid pl-3 pr-3 pt-md-3 pl-lg-5 pr-lg-5" alt="autoSense - Step 1">
+                <h2>{{ element[1].section_step_1 }}</h2>
+            </div>
+            <div class="col-8 offset-2 col-sm offset-sm-0 mb-5 mb-sm-0">
+                <img src="{{ site.baseurl }}/assets/how-to-do-step-2.png" class="img-fluid pl-3 pr-3 pt-md-3 pl-lg-5 pr-lg-5" alt="autoSense - Step 2">
+                <h2>{{ element[1].section_step_2 }}</h2>
+            </div>
+            <div class="col-8 offset-2 col-sm offset-sm-0 mb-5 mb-sm-0">
+                <img src="{{ site.baseurl }}/assets/how-to-do-step-3.png" class="img-fluid pl-3 pr-3 pt-md-3 pl-lg-5 pr-lg-5" alt="autoSense - Step 3">
+                <h2>{{ element[1].section_step_3 }}</h2>
+            </div>
+
+        </div>
+
+
+    {%- endfor -%}
+</section>

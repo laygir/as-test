@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="110" viewBox="0 0 200 110">
+  <defs>
+    <path id="card-tip-2-b" d="M108.761007,4.62892774 L196.371072,92.2389934 C201.209643,97.0775638 201.209643,104.922436 196.371072,109.761007 L3.62892774,109.761007 C-1.20964258,104.922436 -1.20964258,97.0775638 3.62892774,92.2389934 L91.2389934,4.62892774 C96.0775638,-0.20964258 103.922436,-0.20964258 108.761007,4.62892774 Z"/>
+    <filter id="card-tip-2-a" width="200%" height="283.9%" x="-40%" y="-73.6%" filterUnits="objectBoundingBox">
+      <feOffset dx="20" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="30"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#card-tip-2-a)" xlink:href="#card-tip-2-b"/>
+    <use fill="#653FB6" xlink:href="#card-tip-2-b"/>
+  </g>
+</svg>

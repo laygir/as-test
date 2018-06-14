@@ -1,0 +1,39 @@
+<section id="hero" class="hero container">
+        <div class="row">
+            <div class="angle-white"></div>
+
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 text-center p-0">
+                <img src="{{ site.baseurl }}/assets/app-narrow.png" alt="autoSense" class="hero-app mt-md-5 mt-xl-0">
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-7 col-lg-8 text-center text-sm-left cta mb-4 p-md-0 pl-md-3">
+                <h1>{{ site.cta[page.lang].title }}</h1>
+
+                <div class="row">
+                    <div class="col-12 col-lg-4 col-xl-3">
+                        {% assign pages=site.pages | where:"lang", page.lang %}
+                        {%- for nav-item in pages -%}
+                            {%- if nav-item.ref == 'price' -%}  
+                                <a class="btn btn-primary btn-lg" href="{{ nav-item.url | prepend: site.baseurl }}" role="button">{{ site.cta[page.lang].button }}</a>
+                            {%- endif -%}
+                        {%- endfor -%}      
+                    </div>
+                    <div class="col-12 col-lg-8 col-xl-9">
+                        <a href="{{ site.appstore.apple }}" target="_blank" class="btn-app-store apple d-md-inline-block d-none" role="button" title="Download autoSense app from Apple App Store"></a>
+                        <a href="{{ site.appstore.google }}" target="_blank" class="btn-app-store google d-md-inline-block d-none" role="button" title="Download autoSense app from Google Play Store"></a>    
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="col-12 app-store text-center xs-app-store">
+                <div class="app-store-push">
+                    <a href="{{ site.appstore.apple }}" target="_blank" class="btn-app-store apple" role="button" title="Download autoSense app from Apple App Store"></a>
+                    <a href="{{ site.appstore.google }}" target="_blank" class="btn-app-store google" role="button" title="Download autoSense app from Google Play Store"></a>    
+                </div>
+            </div>
+        
+        </div>
+</section>
+    
+

@@ -1,0 +1,90 @@
+<section id="about" class="{{page.ref}} container pb-5 my-5 my-md-0 position-relative">
+
+    {%- assign price=site.price[page.lang] -%}
+
+    <h1 class="post-title text-center">{{ price.section_title }}</h1>
+    <p class="text-center w-75 mx-auto">{{ price.section_p }}</p>
+        
+
+    <div class="row">
+
+        
+        <div class="col-10 col-sm-12 col-md-6 my-sm-4 mx-auto">
+            <div class="dongle-no-wifi price-card m-4 m-sm-0">
+                <div class="row no-gutters corner">
+
+                    <div class="col-8 col-sm-6 col-md-8 col-lg-5 mx-auto">
+                        <img class="img-fluid" src="{{ site.baseurl }}/assets/price-dongle.png" alt="autoSense Dongle">
+                    </div>
+
+                    <div class="col-sm-6 col-md-12 col-lg-6 text-center text-sm-left text-md-center text-lg-left">
+                        <h3 class="my-2 highlight mt-sm-4">{{ price.no_wifi_title }}</h3>
+                        <span class="wifi-data d-block">&nbsp;<br>&nbsp;</span>
+                        <div class="my-3">
+                            <span class="checkmark">{{ price.checkmark }}</span><span class="price-detail">{{ price.detail_sim }}</span>
+                            <span class="checkmark">{{ price.checkmark }}</span><span class="price-detail">{{ price.detail_mobile_app }}</span>
+                        </div>
+                        <span class="one-off d-inline-block my-1">{{ price.detail_one_time }}</span>
+                        <span class="amount d-block my-3">{{ price.no_wifi_price }}</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-10 col-sm-12 col-md-6 my-sm-4 mx-auto">
+            <div class="dongle-wifi price-card selected m-4 m-sm-0">
+                <div class="row no-gutters corner">
+
+                    <div class="col-8 col-sm-6 col-md-8 col-lg-5 mx-auto my-auto">
+                        <img class="img-fluid" src="{{ site.baseurl }}/assets/price-dongle.png" alt="autoSense Dongle">
+                    </div>
+
+                    <div class="col-sm-6 col-md-12 col-lg-6 text-center text-sm-left text-md-center text-lg-left">
+                        <h3 class="my-2 highlight mt-sm-4">{{ price.wifi_title }}</h3>
+                        <span class="wifi-data d-block">{{ price.wifi_data }}</span>
+                        <div class="my-3">
+                            <span class="checkmark">{{ price.checkmark }}</span><span class="price-detail">{{ price.detail_sim }}</span>
+                            <span class="checkmark">{{ price.checkmark }}</span><span class="price-detail">{{ price.detail_mobile_app }}</span>
+                        </div>
+                        <span class="one-off d-inline-block my-1">{{ price.detail_one_time }}</span>
+                        <span class="amount d-block my-3">{{ price.wifi_price }}</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-12 text-center my-5 mx-auto col-lg-10">
+
+            <!-- <div class="alert alert-light mt-2 mb-5 pt-3 w-50 mx-auto" role="alert">
+                <h6>{{ price.one_time }}</h6>
+            </div> -->
+            
+            <a href="{{ site.shop }}" target="_blank" class="btn btn-primary btn-lg" role="button">{{ price.purchase_wifi }}</a>
+
+            <div class="alert alert-light mt-5 pt-3" role="alert">
+                <span class="checkmark">{{ price.info_icon }}</span>
+                <span class="price-detail">{{ price.info }}</span>
+            </div>
+            
+            <div class="alert alert-light my-2 py-4 px-3 px-md-5" role="alert">
+                <h5 class="py-2">{{ price.data_package_title }}</h5>
+                <li class="data-package">{{ price.data_package_1GB }}</li>
+                <li class="data-package">{{ price.data_package_3GB }}</li>
+                <li class="data-package">{{ price.data_package_10GB }}</li>
+                <span class="price-detail mt-3">{{ price.allowed_countries }}</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>

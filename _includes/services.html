@@ -1,0 +1,70 @@
+<section id="{{ site.nav[page.lang].partners.url | remove: "#" }}" class="services container">
+
+    <div class="angle-dark-blue"></div>
+    
+    {%- for items in site.service-content[page.lang] -%}
+        
+    <div class="intro">
+        <h1>{{ items.title }}</h1>
+        <p>{{ items.subtitle }}</p>
+    </div>
+
+    <!-- Services Carousel Navigation HTML init -->
+    <div class="carousel services-nav scroll" data-flickity='{ "asNavFor": ".services-carousel", "contain": true, "pageDots": false, "prevNextButtons": false, "draggable": true, "wrapAround": true }'>
+
+        {% for service in items.content %}
+            <div class="carousel-cell">
+                {{ site.service-attributes[forloop.index0].icon }}
+                <p>{{ service.service }}</p>
+            </div>
+        {% endfor %}
+    </div>
+    
+    <!-- Services Carousel HTML init -->
+    <div class="carousel services-carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": true, "adaptiveHeight": true, "initialIndex": 3 }'>
+        
+        {% for service in items.content %}
+
+        <div class="carousel-cell">
+            <div id="" class="row no-gutters services-item">
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img class="card-img-left img-fluid" src="{{ site.baseurl }}/assets/{{ site.service-attributes[forloop.index0].image }}" alt="autoSene - {{ service.service }}">
+                        </div>
+                    </div>
+                </div>
+
+                    
+                <div class="col-lg-8">
+                    <div class="row no-gutters">
+
+                        <div class="col-md-9 col-12 mt-md-2 mt-lg-4 pl-4 pl-lg-0 service-card-header">
+                            {{ site.service-attributes[forloop.index0].icon }}
+                            <h4 class="d-inline align-middle ml-3">{{ service.service }}</h4>
+                        </div>
+
+                        {% if site.service-attributes[forloop.index0].logo %}
+                            <div class="col-md-3 col-12 mt-2 mt-lg-4 pl-4 pr-4 text-md-right text-left">
+                                <img src="{{ site.baseurl }}/assets/{{ site.service-attributes[forloop.index0].logo }}" alt="{{ service.service }}" width="75" height="35">
+                            </div>
+                        {% endif %}
+
+                        <div class="col-12 pr-md-4 pl-md-4 pl-lg-0 p-4 p-sm-4 pb-lg-0 pb-lg-0">
+                            <p>{{ service.text }}</p>
+                        </div>
+
+                    </div>
+                </div> 
+
+            </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+    {%- endfor -%}
+    
+</section>

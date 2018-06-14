@@ -1,0 +1,900 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title:
+  en: "autoSense – Your car intelligently connected"
+  fr: "Votre voiture – intelligemment mise en réseau"
+  de: "autoSense – Ihr Auto intelligent vernetzt"
+  it: "La tua auto – intelligentemente collegata in rete"
+
+email: info@autosense.ch
+shop: "https://portal.autosense.ch/autosense/shop/register/registration"
+baseurl: ""
+fleeturl: "/fleet/"
+url: "https://www.autosense.ch"
+
+
+
+langname:
+  de: "German"
+  en: "English"
+  fr: "French"
+  it: "Italian"
+
+banner-b2c:
+  en: 
+    text: "Business?"
+    button: "Visit autoSense Fleet"
+  fr: 
+    text: "Business?"
+    button: "Visitez autoSense fleet"
+  de: 
+    text: "Geschäftskunde?"
+    button: "Besuche autoSense fleet"
+  it: 
+    text: "Business?"
+    button: "Visita autoSense fleet"
+
+warning:
+  en: "Please resize your browser."
+  fr: "Veuillez redimensionner votre navigateur."
+  de: "Bitte ändere die Größe deines Browsers."
+  it: "Si prega di ridimensionare il browser."
+
+appstore:
+  apple: "https://itunes.apple.com/ch/app/autosense/id1295013774?mt=8"
+  google: "https://play.google.com/store/apps/details?id=ch.autosense.sparkapp"
+
+flags:
+  de: <svg width="28" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><rect id="a" width="28" height="20" rx="2"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="white"><use xlink:href="#a"/></mask><use fill="#FFFFFF" xlink:href="#a"/><path fill="#D8200F" mask="url(#b)" d="M0 0h28v20H0z"/><path fill="#FFFFFF" fill-rule="nonzero" mask="url(#b)" d="M20 12h-4v4h-4v-4H8V8h4V4h4v4h4z"/></g></svg>
+  en: <svg width="28" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><rect id="a" width="28" height="20" rx="2"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="white"><use xlink:href="#a"/></mask><use fill="#FFFFFF" xlink:href="#a"/><path fill="#0A17A7" mask="url(#b)" d="M0 0h28v20H0z"/><path d="M6.67374124 13.3333333H0V6.66666667h6.67374124L-2.77365027.29432063l1.49118107-2.21076686 11.9491359 8.05979391v-7.47668101h6.6666666v7.47668101l11.9491359-8.05979391L30.7736503.29432063l-9.4473915 6.37234604H28v6.66666663h-6.6737412l9.4473915 6.3723461-1.4911811 2.2107668-11.9491359-8.0597939v7.476681h-6.6666666v-7.476681l-11.9491359 8.0597939-1.49118107-2.2107668 9.44739151-6.3723461z" fill="#FFFFFF" mask="url(#b)"/><path d="M18.6679688 6.33219401L31.3333333-2" stroke="#DB1F35" stroke-width=".66666667" stroke-linecap="round" mask="url(#b)"/><path d="M20.0127767 21.3503418l11.3538411-7.652832" stroke="#DB1F35" stroke-width=".66666667" stroke-linecap="round" mask="url(#b)" transform="matrix(1 0 0 -1 0 35.047852)"/><path d="M8.00553385 6.31046549L-3.83748372-1.67097982" stroke="#DB1F35" stroke-width=".66666667" stroke-linecap="round" mask="url(#b)"/><path d="M9.29003906 22.3104655l-13.12752278-8.7055664" stroke="#DB1F35" stroke-width=".66666667" stroke-linecap="round" mask="url(#b)" transform="matrix(1 0 0 -1 0 35.915364)"/><path fill="#E6273E" mask="url(#b)" d="M0 12h12v8h4v-8h12V8H16V0h-4v8H0z"/></g></svg>
+  fr: <svg width="28" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><rect id="a" width="28" height="20" rx="2"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="white"><use xlink:href="#a"/></mask><use fill="#FFFFFF" xlink:href="#a"/><path fill="#F44653" mask="url(#b)" d="M18 0h10v20H18z"/><path fill="#1035BB" mask="url(#b)" d="M0-.71428571h10v21.4285714H0z"/></g></svg>
+  it: <svg width="28" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><rect id="a" width="28" height="20" rx="2"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="white"><use xlink:href="#a"/></mask><use fill="#FFFFFF" xlink:href="#a"/><path fill="#E43D4C" mask="url(#b)" d="M18 0h10v20H18z"/><path fill="#1BB65D" mask="url(#b)" d="M0-.71428571h10v21.4285714H0z"/></g></svg>
+
+description:
+  en: "Your car – intelligently connected with autoSense: Benefit from more safety and comfort and save time and money!"
+  fr: "Votre voiture – intelligemment mise en réseau avec autoSense: bénéficiez de plus de sécurité et de confort et économisez du temps et de l’argent!"
+  de: "Ihr Auto – intelligent vernetzt mit autoSense: Profitieren Sie von mehr Sicherheit sowie Komfort und sparen Sie Zeit und Geld!"
+  it: "La tua auto – intelligentemente collegata: risparmia tempo e denaro approfittando di più sicurezza e comfort"
+
+index:
+  en:
+  fr: fr/
+  de: de/
+  it: it/
+
+cta:
+  en:
+    title: "Your car –<br>intelligently connected"
+    button: "Order now"
+  fr:
+    title: "Votre voiture –<br>intelligemment mise en réseau"
+    button: "Commande"
+  de:
+    title: "Ihr Auto – <br>intelligent vernetzt"
+    button: "Jetzt bestellen"
+  it:
+    title: "La tua auto –<br>intelligentemente collegata in rete"
+    button: "Ordina ora"
+
+
+
+feature-attributes:
+  - class: "features-wifi"
+    iconfile: "features-wifi.svg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" preserveAspectRatio="meet"><g fill="#653FB6" fill-rule="evenodd" transform="translate(0 6)"><path d="M28.678865,21.8581403 C28.295692,22.2489345 27.775742,22.468517 27.233552,22.468517 C26.691362,22.468517 26.171412,22.2489345 25.7882391,21.8581403 C24.2557543,20.296556 22.177049,19.419237 20.0095408,19.419237 C17.8420327,19.419237 15.7633273,20.296556 14.2308426,21.8581403 C13.7117451,22.3888328 12.9541706,22.5970834 12.2434901,22.4044463 C11.5328096,22.2118092 10.9769924,21.6475504 10.7854094,20.9242209 C10.5938264,20.2008913 10.7955836,19.4283819 11.3146811,18.8976894 C13.6145391,16.5465459 16.7386212,15.225 19.996773,15.225 C23.2549249,15.225 26.3790069,16.5465459 28.678865,18.8976894 C29.0671772,19.2886624 29.2857143,19.8217175 29.2857143,20.3779149 C29.2857143,20.9341123 29.0671772,21.4671674 28.678865,21.8581403 Z"/><path d="M33.7052682,16.0692688 C33.3324642,16.4570887 32.8265843,16.675 32.2990663,16.675 C31.7715483,16.675 31.2656684,16.4570887 30.8928644,16.0692688 C24.87741,9.8186566 15.1246118,9.8186566 9.10915739,16.0692688 C8.33253353,16.8762755 7.07337747,16.8762755 6.29675361,16.0692688 C5.52012975,15.2622621 5.52012975,13.9538458 6.29675361,13.1468391 C13.8643817,5.28438698 26.1326712,5.28438698 33.7002993,13.1468391 C34.0741777,13.5335422 34.2847792,14.0588281 34.2857112,14.6069837 C34.2866432,15.1551394 34.0778293,15.6811953 33.7052682,16.0692688 Z"/><path d="M37.9681686,11.6 C37.428653,11.6 36.9112676,11.3836256 36.5299847,10.9985407 C27.395187,1.80397207 12.6068807,1.80397207 3.472083,10.9985407 C2.67779597,11.799856 1.39000228,11.7998559 0.595715272,10.9985407 C-0.19857174,10.1972254 -0.19857176,8.8980367 0.595715229,8.09672142 C11.3197317,-2.69890714 28.6823361,-2.69890714 39.4063525,8.09672142 C39.787387,8.48205803 40.00095,9.00440393 39.9999968,9.54869372 C39.9990436,10.0929835 39.7836523,10.6145648 39.4012706,10.9985407 C39.0250696,11.3836256 38.5076843,11.6 37.9681686,11.6 Z"/><path d="M22.0206101,28.15024 C21.2035409,28.9797915 19.9745651,29.2280565 18.9068181,28.779256 C17.839071,28.3304556 17.1428571,27.2729859 17.1428571,26.1 C17.1428571,24.9270141 17.839071,23.8695444 18.9068181,23.420744 C19.9745651,22.9719435 21.2035409,23.2202085 22.0206101,24.04976 C23.1359871,25.1821764 23.1359871,27.0178236 22.0206101,28.15024 Z"/></g></svg>
+  - class: "features-vehicle-tracking"
+    iconfile: "features-logbook.svg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" preserveAspectRatio="meet"><g fill="none" fill-rule="evenodd"><path fill="#653FB6" d="M20,35.6214545 C11.3863377,35.6214545 4.37854545,28.6136623 4.37854545,20 C4.37854545,11.3863377 11.3863377,4.37854545 20,4.37854545 C28.6136623,4.37854545 35.6214545,11.3863377 35.6214545,20 C35.6214545,28.6136623 28.6136623,35.6214545 20,35.6214545 M20,1 C9.52384416,1 1,9.52384416 1,20 C1,30.4761558 9.52384416,39 20,39 C30.4761558,39 39,30.4761558 39,20 C39,9.52384416 30.4761558,1 20,1"/><path fill="#653FB6" d="M19.9869385,22.646 C18.5129385,22.646 17.3139385,21.447 17.3139385,19.973 C17.3139385,18.499 18.5129385,17.3 19.9869385,17.3 C21.4609385,17.3 22.6599385,18.499 22.6599385,19.973 C22.6599385,21.447 21.4609385,22.646 19.9869385,22.646 M28.2579385,10 C27.9469385,10 27.6449385,10.084 27.3829385,10.246 L21.1409385,13.994 C20.7579385,13.915 20.3799385,13.877 19.9869385,13.877 C16.6259385,13.877 13.8909385,16.612 13.8909385,19.973 C13.8909385,20.347 13.9249385,20.719 13.9949385,21.109 L10.2429385,27.357 C9.83993852,28.013 9.94693852,28.892 10.4999385,29.445 C10.8259385,29.771 11.2569385,29.951 11.7129385,29.951 C12.0239385,29.951 12.3319385,29.865 12.6029385,29.702 L18.8459385,25.953 C19.2129385,26.03 19.5959385,26.069 19.9869385,26.069 C23.3479385,26.069 26.0829385,23.334 26.0829385,19.973 C26.0829385,19.6 26.0489385,19.227 25.9789385,18.837 L29.7309385,12.589 C30.1339385,11.934 30.0269385,11.054 29.4739385,10.501 C29.1549385,10.182 28.7119385,10 28.2579385,10"/></g></svg>
+  - class: "features-vehicle-diagnostics"
+    iconfile: "features-vehicle-tracking.svg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" preserveAspectRatio="meet"><g fill="#653FB6" fill-rule="evenodd" transform="translate(5 1)"><path d="M15,26.3822903 C11.5296774,21.2019677 7.66741935,14.2458387 7.66741935,10.8268065 C7.66741935,6.65777419 10.9567742,3.26583871 15,3.26583871 C19.0432258,3.26583871 22.3325806,6.65777419 22.3325806,10.8268065 C22.3325806,14.2439032 18.4703226,21.201 15,26.3822903 M15,-0.000290322581 C9.1916129,-0.000290322581 4.46612903,4.85680645 4.46612903,10.8268065 C4.46612903,17.2980968 13.3335484,29.6590645 13.7109677,30.1816452 C14.0109677,30.5977742 14.4929032,30.8464839 15,30.8464839 C15.5070968,30.8464839 15.9890323,30.5977742 16.29,30.1806774 C16.6664516,29.6590645 25.533871,17.2980968 25.533871,10.8268065 C25.533871,4.85680645 20.8083871,-0.000290322581 15,-0.000290322581"/><path d="M15 12.641129C14.0351613 12.641129 13.2503226 11.8272581 13.2503226 10.8266129 13.2503226 9.82596774 14.0351613 9.01209677 15 9.01209677 15.9648387 9.01209677 16.7496774 9.82596774 16.7496774 10.8266129 16.7496774 11.8272581 15.9648387 12.641129 15 12.641129M15 5.74596774C12.27 5.74596774 10.05 8.025 10.05 10.8266129 10.05 13.6282258 12.27 15.9072581 15 15.9072581 17.73 15.9072581 19.95 13.6282258 19.95 10.8266129 19.95 8.025 17.73 5.74596774 15 5.74596774M24.3735484 25.3673226C24.2070968 25.3102258 24.0348387 25.2821613 23.8625806 25.2821613L23.8616129 25.2821613C23.1716129 25.2821613 22.56 25.7302258 22.3412903 26.397 22.0635484 27.2466774 22.5145161 28.1718387 23.3448387 28.4611935 26.1783871 29.4405484 26.7987097 30.5215161 26.7987097 30.8553871 26.7987097 31.9382903 22.7845161 34.4757097 15 34.4757097 7.21548387 34.4757097 3.20129032 31.9382903 3.20129032 30.8553871 3.20129032 30.5215161 3.82064516 29.4395806 6.65225806 28.463129 7.48451613 28.1747419 7.93451613 27.2495806 7.65677419 26.3989355 7.44 25.7321613 6.82935484 25.283129 6.13741935 25.283129 5.96419355 25.283129 5.79290323 25.3111935 5.62741935 25.3673226 1.99741935 26.6224839 0 28.5715161 0 30.8553871 0 34.2782903 5.15225806 37.7418387 15 37.7418387 24.8477419 37.7418387 30 34.2782903 30 30.8553871 30 28.5724839 28.0025806 26.6224839 24.3735484 25.3673226"/></g></svg>
+  - class: "features-driving-behaviour"
+    iconfile: "features-vehicle-diagnostics.svg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" preserveAspectRatio="meet"><path fill="#653FB6" d="M39.4941421,18.5320583 L37.1384342,18.1807122 L34.395401,10.0911604 C34.2346971,9.63717931 33.8521832,9.24668873 33.326768,9.08676899 C32.4520382,8.81800836 31.5065795,9.25910041 31.2188521,10.0715881 L31.1745863,10.1904539 L24.7060127,28.3673608 L18.108491,3.72540015 L18.0882827,3.64376948 C17.883313,2.88856642 17.2443465,2.25938967 16.370579,2.06175751 C15.1142977,1.77915308 13.8483934,2.49330212 13.5399766,3.65522641 L7.76377708,25.6091033 L4.45828013,18.7392379 L4.39140035,18.6012773 C4.2537916,18.3138991 3.92083616,18.1406129 3.57344623,18.194556 L0.362735727,18.6867269 C0.185191568,18.7139371 0.0379598256,18.8442598 0.00572281025,19.0151591 C-0.0327691484,19.2337956 0.12697248,19.44193 0.362735727,19.4777329 L2.87193028,19.8620176 L6.96458779,29.5899114 C7.09449815,29.8949523 7.36297956,30.1489144 7.72384167,30.2596648 C8.36761968,30.4558648 9.06480528,30.1322063 9.27747335,29.5374004 L9.30393658,29.4653172 L15.5213502,12.0569797 L22.2170264,36.3905578 L22.2300174,36.4402045 C22.4215149,37.126666 22.9902336,37.7071508 23.7797999,37.9181493 C24.9687203,38.2360793 26.2071991,37.599742 26.551221,36.4960571 L33.1631772,15.200954 L35.2475167,19.4495679 L35.3423032,19.6433811 C35.5010825,19.9675169 35.8835963,20.1699228 36.2839127,20.1083418 L39.4941421,19.6333563 C39.7443398,19.5942117 39.9507529,19.4142424 39.9911695,19.1707825 C40.0484263,18.8652642 39.8208426,18.5802729 39.4941421,18.5320583 Z"/></svg>
+  - class: "features-logbook"
+    iconfile: "features-safety-alarms.svg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" preserveAspectRatio="meet"><path fill="#653FB6" d="M15,34 L25,34 C25,36.7614237 22.7614237,39 20,39 C17.2385763,39 15,36.7614237 15,34 Z M23.5014513,4.55030244 L23.5014513,6.03986151 C27.7020061,7.46574558 30.5076844,11.2819363 30.5004002,15.5595999 L30.5004002,18.1131297 C30.5018968,19.7154726 31.0996967,21.2645645 32.1859803,22.4810097 L33.2066604,23.6009789 C33.7250693,24.1824324 34.0068203,24.9243573 33.9998746,25.6897215 L33.9998746,25.8297177 C33.9998746,27.5801913 32.52189,28.9992306 30.6987037,28.9992306 L9.43356415,28.9992306 C8.11497829,29.026646 6.89881452,28.3195021 6.31319946,27.1848804 C5.72204355,25.9738363 5.98310055,24.5371007 6.96643469,23.5897792 L7.45052865,23.124992 C8.76775416,21.8618779 9.5065672,20.1469496 9.50355364,18.359523 L9.50355364,15.5595999 C9.49626944,11.2819363 12.3019477,7.46574558 16.5025025,6.03986151 L16.5025025,4.35990767 C16.5025025,2.5042819 18.0692705,1 20.0019769,1 L20.1886155,1 C22.09408,1.16171383 23.542656,2.71412492 23.5014513,4.55030244 Z M17.6612063,9.46047508 C14.9869886,10.3223155 13.1968291,12.6270563 13.1913626,15.2151752 L13.1913626,18.2729329 C13.2026096,20.6632707 12.4402926,23.0034394 11,25 L29,25 C27.4329023,22.9473563 26.5932233,20.5055489 26.5941921,18.0038503 L26.5941921,15.2151752 C26.5887256,12.6270563 24.7985661,10.3223155 22.1243485,9.46047508 C20.712698,8.84650831 19.0728567,8.84650831 17.6612063,9.46047508 Z"/></svg>
+  - class: "features-safety-alarms"
+    iconfile: "features-driving-behaviour.svg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" preserveAspectRatio="meet"><g fill="none" fill-rule="evenodd"><path fill="#653FB6" d="M29.6856415,30.6765707 C29.4164463,30.4073756 29.0578366,30.2589854 28.6763976,30.2589854 L12.9213488,30.2589854 C12.6141049,30.2589854 12.3087634,30.3607659 12.0633488,30.5462537 L7.7790561,33.771839 C2.22773902,27.3263756 2.56351951,17.681961 8.61803171,11.6274488 C11.696178,8.54930244 15.7892756,6.85327805 20.1430073,6.85327805 C24.4957878,6.85327805 28.5888854,8.54930244 31.6670317,11.6274488 C37.6597146,17.6191805 38.0449585,27.1855951 32.6325195,33.6234488 L29.6856415,30.6765707 Z M20.1430073,3.99961951 C15.0273488,3.99961951 10.2179829,5.99242439 6.60049512,9.60896098 C-0.866578049,17.0760341 -0.866578049,29.2269122 6.60049512,36.6939854 C6.87064146,36.9631805 7.2283,37.1115707 7.60973902,37.1115707 C7.92173902,37.1115707 8.21756829,37.0126439 8.46773902,36.8252537 L13.398861,33 L28.0856902,33 L31.6670317,36.6939854 C31.937178,36.9631805 32.2948366,37.1115707 32.6762756,37.1115707 C33.0567634,37.1115707 33.4153732,36.9631805 33.6845683,36.6939854 C41.1525927,29.2269122 41.1525927,17.0760341 33.6845683,9.60896098 C30.0680317,5.99242439 25.2586659,3.99961951 20.1430073,3.99961951 Z"/><path fill="#653FB6" d="M30.6348634 23.7517878C30.3162049 23.9696171 30.0974244 24.3063488 30.0270341 24.6858854 29.8834 25.4696902 30.4008634 26.2221049 31.1846683 26.3685927 31.967522 26.5150805 32.721839 26.0004707 32.8711805 25.2176171 33.020522 24.4347634 32.5087659 23.6785439 31.7259122 23.5263488 31.3473268 23.4531049 30.953522 23.5339585 30.6348634 23.7517878M7.81815122 17.0844049C7.28641951 17.4392098 7.05051707 18.0993561 7.2369561 18.710039 7.42339512 19.3216732 7.98841951 19.7383073 8.6266878 19.7354537 9.20598049 19.7326 9.72915122 19.3844537 9.95459024 18.8498683 10.2019073 18.2620146 10.0354439 17.5799902 9.5427122 17.1728683 9.04998049 16.7666976 8.34988293 16.7296 7.81815122 17.0844049M8.47677561 23.7457C8.15906829 23.5316756 7.76811707 23.4527244 7.39238537 23.5269195 6.66089756 23.6696024 6.15770244 24.3449683 6.22999512 25.0869195 6.30133659 25.829822 6.92533659 26.3957976 7.67014146 26.3938951 7.76526341 26.3948463 7.86038537 26.3853341 7.95360488 26.367261 8.7345561 26.211261 9.24345854 25.4512366 9.08936098 24.6683829 9.01516585 24.2917 8.79448293 23.9597244 8.47677561 23.7457M14.0155366 12.2340415C13.5503902 12.0047976 12.9977317 12.0428463 12.5677805 12.3329683 11.9076341 12.778139 11.7316585 13.6732366 12.1730244 14.3352854 12.6153415 14.9973341 13.5094878 15.1780659 14.1743902 14.7395537 14.6071951 14.4541878 14.853561 13.9586024 14.8212195 13.441139 14.7879268 12.9236756 14.4806829 12.4632854 14.0155366 12.2340415M24.9424805 14.7347024C25.261139 14.9487268 25.6520902 15.0267268 26.0287732 14.9515805 26.4054561 14.8754829 26.7355293 14.6528976 26.9467 14.3323366 27.2710659 13.8453122 27.2710659 13.2118 26.9447976 12.7257268 26.6185293 12.2396537 26.032578 11.9989951 25.4580415 12.1140927 24.8835049 12.2291902 24.4364317 12.6781659 24.3232366 13.2517512 24.2100415 13.8253366 24.4545049 14.4112878 24.9424805 14.7347024M19.6582659 13.0264073C20.3602659 13.2157 21.0946073 12.8551878 21.3723634 12.1826756 21.5569 11.7384561 21.5074366 11.2305049 21.2410951 10.8290902 20.9747537 10.4286268 20.5267293 10.1860659 20.0454122 10.1832122 19.3177293 10.1784561 18.7003878 10.7139927 18.6024122 11.4350171 18.5044366 12.1550902 18.9562659 12.8371146 19.6582659 13.0264073M20.6494366 23.9551585C19.9179488 24.2738171 19.0675585 23.9389878 18.7489 23.2075 18.4302415 22.475061 18.7650707 21.6227683 19.4956073 21.3031585 20.2261439 20.9835488 21.0765341 21.318378 21.3961439 22.0498659L21.4037537 22.0498659C21.7195585 22.7851585 21.3828268 23.6374512 20.6494366 23.9551585zM31.1214122 19.0354512C31.6008268 18.7148902 31.7825098 18.0908902 31.5513634 17.5582073 31.3211683 17.0245732 30.7447293 16.7373049 30.1873146 16.8761829L22.081022 18.9974024C20.4991439 18.0661585 18.506339 18.2725732 17.1422902 19.5072561 15.7791927 20.741939 15.3559 22.7242805 16.0940463 24.4184024 16.8321927 26.1134756 18.5634122 27.1341341 20.3830951 26.9476951 22.2037293 26.7622073 23.6980951 25.4105244 24.0861927 23.6013049L31.1042902 19.0535244 31.1214122 19.0354512z"/></g></svg>
+
+feature-content:
+  en:
+    - title: "Features"
+      subtitle: "Your car in an app. Connect to your car via autoSense App: The app supports you with a variety of functions, valuable information and services."
+      content:
+        - title: "WiFi-Hotspot"
+          text: "Turn your car into a mobile WiFi hotspot where you can access data at lightning speed. Connect up to 5 devices to the 4G LTE network so your family and friends can stream, surf and play on the go."
+        - title: "Digital Logbook"
+          text: "Track the activity of your car like your own steps. AutoSense takes the writing of your online logbook off your hands and automatically records your journeys with duration, distance and start and end point. You can export this data as a CSV Excel file with just a few clicks. In this way, you can separate your business trips from your private ones and charge them directly as expenses."
+        - title: "Car Localisation"
+          text: "Determine the location of your vehicle and where its journey goes – anytime! Parked or on the road, you can always track the location of your car equipped with autoSense."
+        - title: "Car Diagnostics"
+          text: "Drive away without hesitation – check the condition of your car on your phone and always stay one step ahead. AutoSense is your memory aid and reminds you with push notifications to visit your garage in time. You keep an eye on your car and always check that everything is in order."
+        - title: "Safety Notes"
+          text: "You will be notified if your car is towed or stolen."
+        - title: "Driving Behaviour"
+          text: "Protect your car by paying attention to points such as idle time or abrupt braking. AutoSense helps you and reduces the price of maintaining your car."
+  fr:
+    - title: "Fonctionnalités"
+      subtitle: "Votre voiture dans une application. Connectez-vous à votre voiture via l'application autoSense : L'application vous offre une variété de fonctions, d'informations et de services."
+      content:
+        - title: "WiFi Hotspot"
+          text: "Transformez votre voiture en un point d'accès WiFi mobile duquel vous pouvez accéder aux données à la vitesse de l'éclair. Connectez jusqu'à 5 appareils au réseau 4G LTE pour que votre famille et vos amis puissent diffuser du continu, surfer et jouer lors de vos déplacements."
+        - title: "Journal de bord"
+          text: "Suivez l'activité de votre voiture comme vos propres pas. autoSense vous libère de l'écriture de votre carnet de bord en ligne et enregistre automatiquement vos trajets avec la durée, la distance et les points de départ et d'arrivée. Vous pouvez exporter ces données sous forme de fichier CSV Excel en quelques clics. De cette façon, vous pouvez séparer vos voyages d'affaires de ceux privés et les facturer directement en tant que dépenses."
+        - title: "Localisation du véhicule"
+          text: "Déterminez l'emplacement de votre véhicule et son trajet – à tout moment ! Parqué ou sur la route, vous pouvez toujours suivre l'emplacement de votre voiture équipée d'autoSense."
+        - title: "Diagnostic du véhicule"
+          text: "Vérifiez l'état de votre voiture sur votre smartphone et gardez une longueur d'avance. autoSense est votre aide mémoire et vous rappelle avec des notifications push pour visiter votre garage à temps. Vous gardez un œil sur votre voiture et vous savez toujours si tout est en ordre."
+        - title: "Consignes de sécurité"
+          text: "Vous serez avisé si votre voiture est remorquée ou volée."
+        - title: "Comportement routier"
+          text: "Protégez votre voiture en prêtant attention à des points tels que le temps mort ou le freinage brusque. AutoSense vous aide à réduire le prix d'entretien de votre voiture."
+  de:
+    - title: "Features"
+      subtitle: "Ihr Auto in einer App. Verbinden Sie sich via autoSense App mit Ihrem Auto: Die App unterstützt Sie mit einer Vielzahl an Funktionen, wertvollen Informationen und Services."
+      content:
+        - title: "WiFi-Hotspot"
+          text: "Verwandeln Sie Ihr Auto in einen mobilen WiFi-Hotspot, über den Sie Daten blitzschnell abrufen können. Verbinden Sie bis zu 5 Geräte mit dem 4G LTE Netzwerk, damit deine Familie und Freunde unterwegs streamen, surfen und gamen können."
+        - title: "Digitales Fahrtenbuch"
+          title-card: "Digitales Fahrtenbuch"
+          text: "Verfolgen Sie die Aktionen Ihres Autos wie Ihre eigenen Schritte. autoSense nimmt Ihnen das Schreiben Ihres Online-Fahrtenbuchs ab und trägt Ihre zurückgelegten Fahrten mit Dauer, Distanz und Anfang- bzw. Endpunkt automatisch ein. Diese Daten exportieren Sie mit wenigen Klicks als CSV-Excel Datei. So trennen Sie Ihre geschäftlichen Fahrten von den privaten und können diese direkt als Spesen verrechnen."
+        - title: "Fahrzeug- ortung"
+          title-card: "Fahrzeugortung"
+          text: "Ermitteln Sie den Standort Ihres Fahrzeuges und wo dessen Reise hingeht - jederzeit! Ob parkiert oder unterwegs, Sie können den Ort Ihres mit autoSense ausgerüsteten Autos stets verfolgen."
+        - title: "Fahrzeug- diagnose"
+          title-card: "Fahrzeugdiagnose"
+          text: "Überprüfen Sie den Zustand Ihres Wagens auf Ihrem Smartphone und seien Sie ihm immer einen Schritt voraus. autoSense ist Ihre Gedächtnishilfe und erinnert Sie mit Push-Benachrichtigungen daran, rechtzeitig Ihre Garage aufzusuchen. Sie behalten Ihr Auto im Blick und wissen stets, ob alles in Ordnung ist."
+        - title: "Sicherheits- hinweise"
+          title-card: "Sicherheitshinweise"
+          text: "Sie erhalten einen Hinweis, wenn Ihr Auto abgeschleppt oder gestohlen werden sollte."
+        - title: "Fahr- verhalten"
+          title-card: "Fahrverhalten"
+          text: "Schonen Sie Ihr Auto, indem Sie auf Punkte wie die Leerlaufzeit oder abrupte Bremsungen achten. autoSense hilft Ihnen dabei und verringert mit Ihnen die Kosten des Unterhalts Ihres Wagens."
+  it:
+    - title: "Funzioni"
+      subtitle: "L'auto in un app. Connettiti alla tua auto tramite AutoSense App: L'applicazione ti supporta con una varietà di funzioni, informazioni preziose e servizi."
+      content:
+        - title: "WiFi Hotspot"
+          text: "Trasforma la tua auto in un hotspot WiFi mobile dove potrai accedere ai dati a tutta velocità. Collega fino a 5 dispositivi alla rete 4G LTE in modo che la tua famiglia e i tuoi amici possano messaggiare, navigare e giocare in movimento."
+        - title: "Diario digitale"
+          text: "Traccia le azioni della tua auto come i tuoi passi. autoSense ti toglie le mani dalla scrittura del tuo diario di bordo online e registra automaticamente i tuoi viaggi con la durata, la distanza e il punto di partenza e di arrivo. È possibile esportare questi dati in un file CSV Excel con pochi clic. In questo modo, è possibile separare i viaggi di lavoro da quelli privati e addebitarli direttamente come spese."
+        - title: "Localizzazione veicolo"
+          text: "Individua in qualsiasi momento la posizione del veicolo e la destinazione del viaggio! Parcheggiata o in movimento, è sempre possibile monitorare la posizione della tua  auto dotata di autoSense."
+        - title: "Diagnostica del veicolo"
+          text: "Controlla le condizioni della tua auto sul tuo smartphone e rimani un passo avanti. AutoSense è il tuo aiuto per la memoria e ti ricorda con le notifiche push per visitare il tuo garage in tempo. Si tiene d'occhio la vostra auto e sempre sapere se tutto è in ordine."
+        - title: "Avvisi di sicurezza"
+          text: " Ti verrà comunicato se la tua auto viene trainata via oppure rubata."
+        - title: "Prestazioni stradali"
+          text: "Proteggi l'auto prestando attenzione a cose come il tempo di inattività o le frenate brusche. AutoSense ti aiuta e riduce il costo di manutenzione della tua auto."
+
+usecases:
+  en:
+    usecases:
+      section_title: "Take better care of your car and the people inside"
+      section_card_one_title: "More Safety"
+      section_card_one_p: "Sit back and relax, because autoSense notifies you in case of unwanted vehicle movement, e.g. theft or towing. The breakdown service is also available around the clock and will help you quickly and easily in an emergency."
+      section_card_two_title: "More Comfort"
+      section_card_two_p: "All your trips are documented in the logbook. With just one click you can mark them as business trips and export them quickly and easily. You are always one step ahead of your car: autoSense informs you via push notifications e.g. about oil and battery status, maintenance intervals and tyre changes. Make your appointment directly online in the garage."
+      image_one: "usecase-app-01.png"
+      image_two: "usecase-app-02.png"
+  fr:
+    usecases:
+      section_title: "Prenez mieux soin de votre voiture et des personnes à l'intérieur"
+      section_card_one_title: "Plus de sécurité"
+      section_card_one_p: "Vous pouvez vous détendre, car autoSense vous avertit en cas de mouvement indésirable du véhicule, par exemple en cas de vol ou de remorquage. Le service de dépannage est également disponible 24 heures sur 24 et vous aidera rapidement et facilement en cas d'urgence."
+      section_card_two_title: "Plus de confort"
+      section_card_two_p: "Tous vos déplacements sont consignés dans le journal de bord. En un seul clic, vous pouvez les marquer comme des voyages d'affaires et les exporter rapidement et facilement. Vous avez toujours une longueur d'avance sur votre voiture : autoSense vous informe par le biais de notifications de poussée, par exemple sur l'état de l'huile et de la batterie, les intervalles d'entretien et les changements de pneus. Prenez rendez-vous directement en ligne dans le garage."
+      image_one: "usecase-app-01-fr.png"
+      image_two: "usecase-app-02-fr.png"
+  de:
+    usecases:
+      section_title: "Passen Sie besser auf Ihr Auto und die Menschen darin auf"
+      section_card_one_title: "Mehr Sicherheit"
+      section_card_one_p: "Lehnen Sie sich entspannt zurück, denn autoSense benachrichtigt Sie bei einer ungewollten Fahrzeugbewegung, wie z.B. Diebstahl oder Abschleppen. Der Pannendienst ist zudem rund um die Uhr für Sie da und hilft  Ihnen im Notfall schnell und unkompliziert."
+      section_card_two_title: "Mehr Komfort"
+      section_card_two_p: "Im Fahrtenbuch werden all Ihre Fahrten dokumentiert. Mit nur einem Klick können Sie diese als Geschäftsfahrt markieren sowie einfach und schnell exportieren. Sie sind  Ihrem Auto immer einen Schritt voraus: autoSense informiert Sie per Push-Benachrichtigungen bspw. über den Öl- und Batteriezustand, Wartungsintervalle und den Reifenwechsel. Vereinbaren Sie direkt online Ihren Termin in der Garage."
+      image_one: "usecase-app-01-de.png"
+      image_two: "usecase-app-02-de.png"
+  it:
+    usecases:
+      section_title: "Prendersi cura meglio della vostra auto e le persone all'interno."
+      section_card_one_title: "Più sicurezza"
+      section_card_one_p: "Sedersi e rilassarsi, perché autoSense vi avvisa in caso di movimenti indesiderati del veicolo, ad esempio furto o rimozione. Il servizio di soccorso stradale è disponibile 24 ore su 24 e vi aiuterà rapidamente e facilmente in caso di emergenza."
+      section_card_two_title: "Più comfort"
+      section_card_two_p: "Tutti i viaggi sono documentati nel diario di bordo. Con un solo clic puoi contrassegnarli come viaggi d'affari ed esportarli in modo semplice e veloce. Sei sempre un passo avanti rispetto alla tua auto: autoSense vi informa tramite notifiche push, ad esempio sullo stato dell'olio e della batteria, sugli intervalli di manutenzione e sulla sostituzione dei pneumatici. Fissate il vostro appuntamento per l’autofficina direttamente on-line."
+      image_one: "usecase-app-01-it.png"
+      image_two: "usecase-app-02-it.png"
+
+about:
+  en:
+    about:
+      section_p: "autoSense is a subsidiary of Swisscom AG. The company develops and offers services for private individuals and fleet managers in the field of intelligent networking of cars. Using an app and an adapter, the vehicle owner receives a digital assistant for his car - whether new or used.  The platform is open to interested partners and is constantly being expanded with exciting offers. AMAG and Totalmobil are already on board!"
+      media_title: "Media"
+      media_content: "Press Release 04.06.2018"
+  fr:
+    about:
+      section_p: "autoSense est une filiale de Swisscom AG. La société développe et propose aux particuliers et aux gestionnaires de flottes des services liés à la mise en réseau technologique des voitures. La voiture - qu’elle soit neuve ou d’occasion - devient l’assistant numérique des propriétaires de véhicules. Un écosystème suisse qui intègre un grand nombre de partenaires assure l’expansion continue de l’offre individuelle pour l’utilisateur. L’un des partenaires est AMAG."
+      media_title: "Médias"
+      media_content: "Communiqué de presse 04.06.2018"
+  de:
+    about:
+      section_p: "autoSense ist ein Tochterunternehmen von Swisscom AG. Das Unternehmen entwickelt und offeriert Dienstleistungen für Privatpersonen und Flottenmanager rund um die intelligente Vernetzung von Autos. Mittels einer App und einem Adapter erhält der Fahrzeugbesitzer einen digitalen Assistenten für sein Auto -  egal ob Neuwagen oder Occasion.  Die Plattform steht interessierten Partnern offen und wird laufend um spannende Angebote erweitert. Mit im Boot sind bereits AMAG und Totalmobil!."
+      media_title: "Medien"
+      media_content: "Medienmitteilung 04.06.2018"
+  it:
+    about:
+      section_p: "autoSense è un'affiliata di Swisscom SA. L'azienda sviluppa e offre servizi per privati e gestori di flotte nel campo del collegamento in rete intelligente delle automobili. Con un'app e un adattatore, il proprietario del veicolo riceve un assistente digitale per la sua auto, sia essa nuova o usata.  La piattaforma è aperta a partner interessati e viene costantemente ampliata con offerte entusiasmanti. AMAG e Totalmobil sono già a bordo!"
+      media_title: "Media"
+      media_content: "Comunicato stampa 04.06.2018"
+
+service-attributes:
+  - image: "services-photo-assurances.jpg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path fill="#015" d="M6.48,2 C2.9088,2 0,4.89826087 0,8.45652174 C0,8.85826087 0.3168,9.17391304 0.72,9.17391304 C1.1232,9.17391304 1.44,8.85826087 1.44,8.45652174 C1.44,5.70173913 3.7152,3.43478261 6.48,3.43478261 L29.52,3.43478261 C32.2848,3.43478261 34.56,5.70173913 34.56,8.45652174 C34.56,8.85826087 34.8768,9.17391304 35.28,9.17391304 C35.6832,9.17391304 36,8.85826087 36,8.45652174 C36,4.89826087 33.0912,2 29.52,2 L6.48,2 Z M6.48,4.86956522 C6.0768,4.86956522 5.76,5.18521739 5.76,5.58695652 C5.76,5.98869565 6.0768,6.30434783 6.48,6.30434783 L29.52,6.30434783 C29.9232,6.30434783 30.24,5.98869565 30.24,5.58695652 C30.24,5.18521739 29.9232,4.86956522 29.52,4.86956522 L6.48,4.86956522 Z M6.48,7.73913043 C2.9088,7.73913043 0,10.6373913 0,14.1956522 L0,28.5434783 C0,32.1017391 2.9088,35 6.48,35 L29.52,35 C33.0912,35 36,32.1017391 36,28.5434783 L36,14.1956522 C36,10.6373913 33.0912,7.73913043 29.52,7.73913043 L6.48,7.73913043 Z M6.48,9.17391304 L29.52,9.17391304 C32.2848,9.17391304 34.56,11.4408696 34.56,14.1956522 L34.56,28.5434783 C34.56,31.2982609 32.2848,33.5652174 29.52,33.5652174 L6.48,33.5652174 C3.7152,33.5652174 1.44,31.2982609 1.44,28.5434783 L1.44,14.1956522 C1.44,11.4408696 3.7152,9.17391304 6.48,9.17391304 Z M15.84,13.4782609 C15.4368,13.4782609 15.12,13.793913 15.12,14.1956522 L15.12,18.5 L10.8,18.5 C10.3968,18.5 10.08,18.8156522 10.08,19.2173913 L10.08,23.5217391 C10.08,23.9234783 10.3968,24.2391304 10.8,24.2391304 L15.12,24.2391304 L15.12,28.5434783 C15.12,28.9452174 15.4368,29.2608696 15.84,29.2608696 L20.16,29.2608696 C20.5632,29.2608696 20.88,28.9452174 20.88,28.5434783 L20.88,24.2391304 L25.2,24.2391304 C25.6032,24.2391304 25.92,23.9234783 25.92,23.5217391 L25.92,19.2173913 C25.92,18.8156522 25.6032,18.5 25.2,18.5 L20.88,18.5 L20.88,14.1956522 C20.88,13.793913 20.5632,13.4782609 20.16,13.4782609 L15.84,13.4782609 Z M16.56,14.9130435 L19.44,14.9130435 L19.44,19.2173913 C19.44,19.6191304 19.7568,19.9347826 20.16,19.9347826 L24.48,19.9347826 L24.48,22.8043478 L20.16,22.8043478 C19.7568,22.8043478 19.44,23.12 19.44,23.5217391 L19.44,27.826087 L16.56,27.826087 L16.56,23.5217391 C16.56,23.12 16.2432,22.8043478 15.84,22.8043478 L11.52,22.8043478 L11.52,19.9347826 L15.84,19.9347826 C16.2432,19.9347826 16.56,19.6191304 16.56,19.2173913 L16.56,14.9130435 Z"/></svg>
+    logo: 
+  - image: "services-photo-filling-stations.jpg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path fill="#015" d="M35.2591394,0 C35.0731262,0 34.8912155,0.0719707619 34.7599121,0.215912286 L28.9242044,5.9735733 C28.7783117,6.11751482 28.7196127,6.29046948 28.7196127,6.49198762 L28.7196127,12.2496486 C28.7196127,12.6526848 29.0405769,12.9693562 29.4490764,12.9693562 L30.2076047,12.9693562 L30.2076047,28.0832162 C30.2076047,28.4862525 29.8866407,28.8029238 29.4781412,28.8029238 C29.0696416,28.8029238 28.7486774,28.4862525 28.7486774,28.0832162 L28.7486774,16.5678943 C28.7486774,15.3875738 27.756607,14.4087714 26.5602869,14.4087714 L25.8308234,14.4087714 L25.8308234,3.61315714 C25.8016449,1.62676411 24.1677604,0.0146190466 22.1544412,0.0146190466 L7.56517133,0.0146190466 C5.55185209,0.0146190466 3.91785386,1.62676411 3.91785386,3.61315714 L3.91785386,34.5605848 L1.72946349,34.5605848 C1.32096394,34.5605848 1,34.8772561 1,35.2802924 C1,35.6833286 1.32096394,36 1.72946349,36 L27.9901492,36 C28.3986487,36 28.7196127,35.6833286 28.7196127,35.2802924 C28.7196127,34.8772561 28.3986487,34.5605848 27.9901492,34.5605848 L25.8017587,34.5605848 L25.8017587,15.8481867 L26.5312222,15.8481867 C26.9397217,15.8481867 27.2606857,16.164858 27.2606857,16.5678943 L27.2606857,28.0832162 C27.2606857,29.2635367 28.252756,30.242339 29.4490764,30.242339 C30.6453966,30.242339 31.6374669,29.2635367 31.6374669,28.0832162 L31.6374669,12.9693562 L32.3378657,12.9693562 C32.7463652,12.9693562 33.0673292,12.6526848 33.0673292,12.2496486 L33.0673292,3.90104019 L35.781161,1.22350295 C36.0729463,0.935619905 36.0729463,0.475007 35.781161,0.215912286 C35.6352683,0.0719707619 35.4451526,0 35.2591394,0 Z M7.56517133,1.45403428 L22.1544412,1.45403428 C23.3507613,1.45403428 24.3428317,2.43283665 24.3428317,3.61315714 L24.3428317,34.5605848 L5.37678085,34.5605848 L5.37678085,3.61315714 C5.37678085,2.43283665 6.3688512,1.45403428 7.56517133,1.45403428 Z M9.60766911,3.46921562 C8.41134898,3.46921562 7.41927863,4.44801798 7.41927863,5.62833848 L7.41927863,12.2496486 C7.41927863,13.4299691 8.41134898,14.4087714 9.60766911,14.4087714 L20.1119434,14.4087714 C21.3082636,14.4087714 22.3003339,13.4299691 22.3003339,12.2496486 L22.3003339,5.62833848 C22.3003339,4.44801798 21.3082636,3.46921562 20.1119434,3.46921562 L9.60766911,3.46921562 Z M9.60766911,4.90863086 L20.1119434,4.90863086 C20.520443,4.90863086 20.8414069,5.22530221 20.8414069,5.62833848 L20.8414069,12.2496486 C20.8414069,12.6526848 20.520443,12.9693562 20.1119434,12.9693562 L9.60766911,12.9693562 C9.19916955,12.9693562 8.87820562,12.6526848 8.87820562,12.2496486 L8.87820562,5.62833848 C8.87820562,5.22530221 9.19916955,4.90863086 9.60766911,4.90863086 Z M31.5793374,5.34045543 L31.5793374,11.529941 L30.9080034,11.529941 L30.8789387,11.529941 L30.8498739,11.529941 L30.0913457,11.529941 L30.0913457,6.77987067 L30.1204104,6.77987067 L31.5793374,5.34045543 Z M15.005699,18.4391341 C14.7430921,18.4391341 14.4803715,18.5541748 14.3053002,18.7556929 L14.2762355,18.7843689 L11.7379307,22.1242619 L11.6792316,22.1816137 C11.1831965,22.872533 10.9497681,23.6498173 10.9497681,24.4846781 C10.9497681,26.7013776 12.7589514,28.4863647 15.005699,28.4863647 C17.223268,28.4863647 19.0616301,26.7013776 19.0616301,24.4846781 C19.0616301,23.6786056 18.7991373,22.9013213 18.3031021,22.1816137 L18.2740374,22.152938 L15.7351625,18.7843689 C15.7351625,18.7843689 15.7352765,18.7556929 15.706098,18.7556929 C15.5310268,18.5541748 15.2683058,18.4391341 15.005699,18.4391341 Z M14.9766345,20.2530221 L17.0772615,23.0452629 C17.3982254,23.4770874 17.5736386,23.9950521 17.5736386,24.5420299 C17.5736386,25.9238685 16.406383,27.0756255 14.9766345,27.0756255 C13.5468861,27.0756255 12.3796304,25.9239808 12.3796304,24.5133538 C12.3796304,23.9951644 12.5255231,23.5057632 12.8173085,23.0739386 L12.8463732,23.0452629 L14.9766345,20.2530221 Z"/></svg>
+    logo: 
+  - image: "services-photo-carwashes.jpg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path fill="#015" d="M17.9855185,0 C17.5784523,0 17.1420828,0.201712493 16.8803974,0.547312493 L16.8514346,0.576 L6.70374195,13.968 C6.61651348,14.0256 6.55858825,14.1409126 6.50043593,14.2273126 C4.87217106,16.5601126 4,19.2961126 4,22.1473126 C4,29.7793123 10.2803365,36 17.9855185,36 C25.6907004,36 31.9709238,29.808 32,22.176 C32,19.3248 31.0990927,16.5309751 29.4126755,14.1693751 C29.3835993,14.1117751 29.3544098,14.0542874 29.2962575,13.9966874 L19.1196023,0.576 L19.0906396,0.547312493 C18.799878,0.201712493 18.3925847,0 17.9855185,0 Z M17.9855185,1.46868751 L28.1621739,14.8893751 L28.1911364,14.9186249 C28.2202125,14.9474249 28.2205533,14.9758874 28.2496295,15.0046874 C29.7615894,17.1358874 30.5461921,19.6128 30.5461921,22.176 C30.5171159,29.0016 24.876568,34.56 17.9855185,34.56 C11.0653928,34.56 5.45380792,29.0017123 5.45380792,22.1473126 C5.45380792,19.5841126 6.23852342,17.1357751 7.72140749,15.0333751 L7.80886305,14.9473126 L17.9855185,1.46868751 Z M18.020728,6.74381261 C17.785904,6.73228138 17.5493761,6.82931261 17.4039953,7.02731261 L9.98957493,16.8766874 L9.96061246,16.9053751 C8.91387076,18.4893751 8.36142375,20.2465126 8.36142375,22.1473126 C8.36142375,27.4177126 12.6645815,31.68 17.9855185,31.68 C18.3925847,31.68 18.7124224,31.3632 18.7124224,30.96 C18.7124224,30.5568 18.3925847,30.24 17.9855185,30.24 C13.4787139,30.24 9.81523167,26.6113126 9.81523167,22.1473126 C9.81523167,20.5345126 10.2512604,19.0656 11.1526213,17.712 L18.5670416,7.89131261 C18.7996509,7.57451261 18.7414986,7.11371261 18.4216608,6.88331261 C18.3017217,6.79691261 18.1616223,6.75073123 18.020728,6.74381261 Z"/></svg>
+    logo: 
+  - image: "services-photo-garages.jpg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path fill="#015" d="M11.088,8.00026676 C10.3896,8.0073723 9.69131261,8.15625564 9.04331261,8.44047744 L3.11062493,11.1122735 C1.20982499,11.8512502 0,13.6418475 0,15.6598223 L0,27.5971378 C0,27.9950483 0.3168,28.3076923 0.72,28.3076923 L20.8513126,28.3076923 L20.88,28.3076923 C21.0816,28.3076923 21.2546249,28.2222041 21.3986249,28.0800932 L33.7533754,16.7400871 C33.9837754,16.5411318 34.0418246,16.2281547 33.9266246,15.9723551 C33.8114246,15.6881333 33.552,15.5177114 33.264,15.5177114 L31.824,15.5177114 C31.7088,15.5177114 31.5938246,15.5463555 31.4786246,15.6031999 L21.6,20.7475036 L21.6,16.2282659 C21.6,15.8303553 21.2832,15.5177114 20.88,15.5177114 L17.4526874,15.5177114 L15.8973751,11.3964953 C15.4365751,10.0606528 14.4286874,8.98060999 13.1326874,8.41216639 C12.4846874,8.12794459 11.7864,7.99316121 11.088,8.00026676 Z M11.0486249,9.42470655 C11.5490249,9.42115377 12.0528,9.52052027 12.528,9.71947553 C13.4496,10.117386 14.1697126,10.8846741 14.5153126,11.8794504 L15.8973751,15.5177114 L1.44,15.5177114 C1.4976,14.1534467 2.36137501,12.9311819 3.65737507,12.4195826 L3.68662493,12.4195826 L9.59062493,9.74778686 C10.0514249,9.53462052 10.5482249,9.42825932 11.0486249,9.42470655 Z M1.44,16.9105093 L20.16,16.9105093 L20.16,21.8843905 L20.16,21.9127018 L20.16,26.858272 L1.44,26.858272 L1.44,16.9105093 Z M30.672,17.6210638 L21.6,25.9484297 L21.6,22.3390345 L30.672,17.6210638 Z M33.0913123,21.173836 C32.8321123,21.173836 32.6013754,21.2874139 32.4573754,21.4863691 L32.4286877,21.5146805 L30.7586246,23.7035209 C30.7586246,23.731943 30.7293754,23.7317213 30.7293754,23.7601435 C30.3837754,24.2433206 30.2113123,24.8119859 30.2113123,25.4088517 C30.2113123,27.0004937 31.5072,28.279381 33.12,28.279381 C34.6752,28.3078032 36,27.0288051 36,25.437163 C36,24.8402972 35.8270877,24.2716319 35.4526877,23.7884549 L35.4526877,23.7601435 C35.4526877,23.7601435 35.4528,23.7318322 35.424,23.7318322 L33.7533754,21.5146805 C33.7533754,21.5146805 33.7534877,21.4863691 33.7246877,21.4863691 C33.5518877,21.2874139 33.3217123,21.173836 33.0913123,21.173836 Z M33.12,23.0212777 L34.3293754,24.5844976 C34.5021754,24.8402972 34.5886877,25.1246299 34.5886877,25.4088517 C34.5886877,26.2046727 33.9264,26.858272 33.12,26.858272 C32.2848,26.8866942 31.6226246,26.232984 31.6226246,25.437163 C31.6226246,25.1529412 31.7085754,24.8684977 31.8813754,24.6411203 C31.8813754,24.6411203 31.8818246,24.6128089 31.9106246,24.6128089 L33.12,23.0212777 Z"/></svg>
+    logo: "services-partner-amag.svg"
+  - image: "services-photo-breakdown-services.jpg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path fill="#015" fill-rule="evenodd" d="M16.0282,28.3489 C14.8992,28.3489 13.9812,27.4279 13.9812,26.2959 C13.9812,25.1639 14.8992,24.2419 16.0282,24.2419 C17.1952,24.2419 18.0752,25.1249 18.0752,26.2959 C18.0752,27.4279 17.1562,28.3489 16.0282,28.3489 Z M8.1892,28.3489 C7.0602,28.3489 6.1422,27.4279 6.1422,26.2959 C6.1422,25.1639 7.0602,24.2419 8.1892,24.2419 C9.3172,24.2419 10.2352,25.1639 10.2352,26.2959 C10.2352,27.4279 9.3172,28.3489 8.1892,28.3489 Z M13.9612,19.7369 L5.7502,8.0739 L5.8842,7.8889 L19.5042,19.7369 L13.9612,19.7369 Z M28.4592,17.2339 C27.8442,17.2339 27.3612,16.7499 27.3612,16.1329 L27.3612,15.0809 C27.3612,14.4629 27.8442,13.9799 28.4592,13.9799 L30.3772,13.9799 L32.6712,17.2339 L28.4592,17.2339 Z M28.4592,12.3779 C27.0272,12.3779 25.8622,13.5459 25.8622,14.9809 L25.8622,16.0319 C25.8622,17.4679 27.0272,18.6359 28.4592,18.6359 L33.7152,18.6359 L33.9512,19.0089 L33.9512,23.2419 C33.9512,24.2079 33.1682,24.9939 32.2042,24.9939 L31.9292,24.9939 C31.3862,23.6399 30.0942,22.7409 28.6592,22.7409 C27.1982,22.7409 25.8782,23.6589 25.3842,24.9939 L19.2972,24.9939 C18.7552,23.6399 17.4632,22.7409 16.0282,22.7409 C14.5942,22.7409 13.3022,23.6399 12.7592,24.9939 L11.5082,24.9939 C10.9662,23.6399 9.6732,22.7409 8.2392,22.7409 C6.8042,22.7409 5.5122,23.6399 4.9702,24.9939 L4.5942,24.9939 C3.5302,24.9939 2.6972,24.1579 2.6972,23.0919 C2.6972,22.0249 3.5302,21.1889 4.5942,21.1889 L23.3662,21.1889 C23.8012,21.1889 24.1162,20.8729 24.1162,20.4389 L24.1162,11.6259 L28.7802,11.6259 L29.3202,12.3779 L28.4592,12.3779 Z M30.6562,26.2959 C30.6562,27.4279 29.7382,28.3489 28.6092,28.3489 C27.4802,28.3489 26.5622,27.4279 26.5622,26.2959 C26.5622,25.1639 27.4802,24.2419 28.6092,24.2419 C29.7382,24.2419 30.6562,25.1639 30.6562,26.2959 Z M35.2772,18.4089 L29.7632,10.4329 C29.6332,10.2349 29.4172,10.1249 29.1582,10.1249 L23.3662,10.1249 C22.9262,10.1249 22.6172,10.4339 22.6172,10.8759 L22.6172,19.6879 L21.8132,19.6879 L6.2562,6.1809 C6.1462,6.0699 5.9792,5.9999 5.8112,5.9999 C5.7582,5.9999 5.7042,6.0069 5.6512,6.0219 C5.4222,6.0369 5.2752,6.1839 5.1662,6.2929 L4.1952,7.5699 L1.2442,11.7329 C1.1482,11.9859 1.1482,12.1199 1.1482,12.2279 L1.1482,14.6809 C1.1482,15.2969 1.5172,15.8349 2.0682,16.0199 C2.1692,16.0599 2.3252,16.2229 2.2572,16.4649 C2.2262,16.5829 2.0962,16.7139 1.9862,16.7409 C1.8012,16.7529 1.7122,16.7259 1.6372,16.6759 C1.5562,16.6219 1.4992,16.4989 1.4992,16.3829 C1.4992,15.9479 1.1832,15.6319 0.7492,15.6319 C0.3082,15.6319 0.000200000002,15.9409 0.000200000002,16.3829 C0.000200000002,16.9619 0.2872,17.5369 0.7492,17.8839 C1.1442,18.1499 1.5382,18.2849 1.8972,18.2849 C2.0572,18.2849 2.2382,18.2849 2.4272,18.2219 C3.0452,18.0529 3.5642,17.5319 3.7362,16.8989 C3.9642,15.9889 3.5292,15.0569 2.7232,14.6849 L2.6982,12.4559 L4.8922,9.3569 L12.2012,19.7369 L4.5442,19.7369 C2.6722,19.7369 1.1482,21.2649 1.1482,23.1419 C1.1482,25.0189 2.6722,26.5459 4.5442,26.5459 L4.6992,26.5459 C4.8032,28.4129 6.3502,29.8999 8.2392,29.8999 C10.1272,29.8999 11.6752,28.4129 11.7782,26.5459 L12.5382,26.5459 C12.6412,28.4129 14.1902,29.8999 16.0782,29.8999 C17.9992,29.8999 19.5172,28.4419 19.6182,26.5459 L25.1192,26.5459 C25.2222,28.4129 26.7712,29.8999 28.6592,29.8999 C30.5802,29.8999 32.0992,28.4419 32.1992,26.5459 C34.0442,26.5459 35.5002,25.0859 35.5002,23.2919 L35.5002,18.8859 C35.4242,18.6149 35.3562,18.4889 35.2772,18.4089 Z"/></svg>
+    logo: "services-partner-totalmobil.svg"
+  - image: "services-photo-leasing.jpg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path fill="#015" d="M18.5,0 C16.8338462,0 15.3430769,0.782273964 14.4076923,2.11561568 C14.32,2.23155844 14.2615385,2.37660011 14.2615385,2.52152856 L14.2615385,20.0578707 L12.6538462,20.0578707 C10.6369231,20.0578707 9,21.6810694 9,23.6810819 L9,32.3767888 C9,34.3768014 10.6369231,36 12.6538462,36 L24.3461538,36 C26.3630769,36 28,34.3768014 28,32.3767888 L28,23.6810819 C28,21.6810694 26.3630769,20.0578707 24.3461538,20.0578707 L22.7384615,20.0578707 L22.7384615,2.52152856 C22.7384615,2.37660011 22.68,2.23155844 22.5923077,2.11561568 C21.6276923,0.782273964 20.1369231,0 18.5,0 Z M17.7692308,1.50702942 L17.7692308,4.49278182 C17.0969231,4.72466734 16.6,5.36212613 16.6,6.14473975 C16.6,6.89836768 17.0969231,7.53582647 17.7692308,7.79669768 L17.7692308,8.8695079 C17.0969231,9.10139342 16.6,9.73885192 16.6,10.5214655 C16.6,11.2750935 17.0969231,11.9131184 17.7692308,12.1739896 L17.7692308,14.6955182 C17.0969231,14.9274037 16.6,15.5648625 16.6,16.3474761 C16.6,17.1300897 17.0969231,17.7391289 17.7692308,18.0000001 L17.7692308,18.7535147 C17.7692308,19.1593144 18.0907692,19.4781569 18.5,19.4781569 C18.9092308,19.4781569 19.2307692,19.1593144 19.2307692,18.7535147 L19.2307692,17.3042302 C19.2307692,16.8984306 18.9092308,16.579588 18.5,16.579588 L18.3538462,16.579588 C18.1784615,16.579588 18.0615385,16.4636452 18.0615385,16.2897311 C18.0615385,16.115817 18.1784615,15.9998742 18.3538462,15.9998742 L18.5,15.9998742 C18.9092308,15.9998742 19.2307692,15.6810316 19.2307692,15.275232 L19.2307692,11.5070923 C19.2307692,11.1012927 18.9092308,10.7824501 18.5,10.7824501 L18.3538462,10.7824501 C18.1784615,10.7824501 18.0615385,10.6665073 18.0615385,10.4925932 C18.0615385,10.318679 18.1784615,10.2027363 18.3538462,10.2027363 L18.5,10.2027363 C18.9092308,10.2027363 19.2307692,9.8838937 19.2307692,9.47809405 L19.2307692,7.15923889 C19.2307692,6.75343923 18.9092308,6.43459665 18.5,6.43459665 L18.3538462,6.43459665 C18.1784615,6.43459665 18.0615385,6.31865389 18.0615385,6.14473975 C18.0615385,5.97082561 18.1784615,5.85488286 18.3538462,5.85488286 L18.5,5.85488286 C18.9092308,5.85488286 19.2307692,5.53604027 19.2307692,5.13024062 L19.2307692,1.50702942 C20.0492308,1.68094356 20.7507692,2.08696965 21.2769231,2.75364045 L21.2769231,20.0578707 L15.7230769,20.0578707 L15.7230769,2.75364045 C16.2492308,2.11595537 16.9507692,1.68094356 17.7692308,1.50702942 Z M12.6538462,21.5071552 L24.3461538,21.5071552 C25.5446154,21.5071552 26.5384615,22.4926687 26.5384615,23.6810819 L26.5384615,32.3767888 C26.5384615,33.5652021 25.5446154,34.5507155 24.3461538,34.5507155 L12.6538462,34.5507155 C11.4553846,34.5507155 10.4615385,33.5652021 10.4615385,32.3767888 L10.4615385,23.6810819 C10.4615385,22.4926687 11.4553846,21.5071552 12.6538462,21.5071552 Z M15.5769231,28.7535776 C15.1676923,28.7535776 14.8461538,29.0724202 14.8461538,29.4782198 L14.8461538,32.3767888 C14.8461538,32.7825885 15.1676923,33.101431 15.5769231,33.101431 L21.4230769,33.101431 C21.8323077,33.101431 22.1538462,32.7825885 22.1538462,32.3767888 L22.1538462,29.4782198 C22.1538462,29.0724202 21.8323077,28.7535776 21.4230769,28.7535776 L15.5769231,28.7535776 Z M16.3076923,30.2028621 L20.6923077,30.2028621 L20.6923077,31.6521466 L16.3076923,31.6521466 L16.3076923,30.2028621 Z"/></svg>
+    logo: 
+  - image: "services-photo-parking.jpg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path fill="#015" d="M17.9999998,0 C10.3093332,0 4,6.23519666 4,13.8805575 C4,16.7382894 4.89614596,19.5215044 6.57614594,21.9338755 C6.57614594,21.9709889 6.61377085,22.0452157 6.68843751,22.1194425 L16.6933332,35.369362 L16.7305209,35.4063307 C17.0665209,35.7774647 17.5146665,36 17.9999998,36 C18.4853331,36 18.9334791,35.7774647 19.2694791,35.4063307 L19.3066665,35.369362 L29.2751039,22.1564112 C29.3871039,22.0821844 29.4616249,21.9712791 29.4989583,21.8599389 C31.1416249,19.5217946 32,16.7752577 32,13.9175258 C32,6.23505155 25.7279997,0 17.9999998,0 Z M17.9628125,1.8556701 C24.645479,1.8556701 30.0961456,7.2742268 30.0961456,13.9175258 C30.0961456,16.4041237 29.3491874,18.7792363 27.9305207,20.8204734 C27.8931874,20.8575868 27.8561457,20.8949905 27.8561457,20.9321039 L17.9628125,33.9957312 L8.14385434,20.9321039 L8.10666661,20.8951352 C8.10666661,20.8580218 8.06962523,20.8575868 8.03229189,20.8204734 C6.57629191,18.7421229 5.79229192,16.3671554 5.79229192,13.8805575 C5.86695859,7.23725852 11.3174792,1.8556701 17.9628125,1.8556701 Z M17.9628125,6.93991633 C14.2294792,6.93991633 11.2056252,9.83476169 11.2056252,13.4347617 C11.2056252,17.0347617 14.2294792,19.9296071 17.9628125,19.9296071 C21.6961457,19.9296071 24.7199997,17.0347617 24.7199997,13.4347617 C24.7199997,9.83476169 21.6961457,6.93991633 17.9628125,6.93991633 Z M17.9628125,8.79558643 C20.6508124,8.79558643 22.8533331,10.8739369 22.8533331,13.4347617 C22.8533331,15.9955864 20.6508124,18.0739369 17.9628125,18.0739369 C15.2748125,18.0739369 13.0722918,15.9955864 13.0722918,13.4347617 C13.0722918,10.8739369 15.2748125,8.79558643 17.9628125,8.79558643 Z"/></svg>
+    logo: 
+  - image: "services-photo-wifi.jpg"
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path fill="#015" d="M25.5429069 23.6008833c.2505536-.2494726.3904264-.586844.3904264-.9392257s-.1398728-.689753-.3909011-.9397049c-1.9992756-2.0210567-4.7142636-3.1567353-7.545393-3.1567353s-5.5461174 1.1356786-7.54538572 3.1567278c-.33272801.3363652-.46240603.8273508-.33924581 1.2871597.12283763.4586045.47815247.8152916.93108903.9366949.4517259.1210789.9333631-.0098419 1.264993-.345096 1.511156-1.5226717 3.5617154-2.3784566 5.700245-2.3784566 2.1385295 0 4.189089.8557849 5.7004229 2.3786361.2436004.2456738.5733701.3833867.9168747.3833867.3435046 0 .6732743-.1377129.9168746-.3833867z" fill-rule="nonzero"/><path d="M30.4666647 17.8537038c-.000597-.3471889-.135091-.6789039-.3731018-.9223346-6.6821337-6.86500868-17.5076816-6.86500868-24.18978413-.000032-.49392725.5075246-.49392725 1.3371887 0 1.8447133.48470716.4980507 1.26335186.4980507 1.74806464-.0000058 5.71369209-5.87081833 14.98446619-5.87081833 20.69838469.0002328.2332462.239934.5473823.3737407.8738087.3737407.326366 0 .6404462-.1337571.8736792-.3736075.2362295-.2433914.3695456-.5755656.3689487-.9227069z" fill-rule="nonzero"/><path d="M33.639494 14.07012568c.335104 0 .6546896-.1328811.8890612-.37008117.2372331-.23556452.3708515-.55552235.3714428-.8893964.0005911-.33374117-.1317989-.65420674-.3674685-.88988001-9.1358434-9.09424839-23.92730038-9.09436327-33.06287209-.00038582-.49287656.49169053-.49287655 1.28880387 3e-8 1.78049438.49303177.49184533 1.29237723.4917334 1.78570793-.00040969 8.14929733-8.11110992 21.34195603-8.11092651 29.49168003.00060915.2365831.23627651.5576426.36904956.8924486.36904956z" fill-rule="nonzero"/><path d="M19.6030174 30.3375184c-.6482083.6467269-1.6231957.8402767-2.4702751.4903873-.8470793-.3498894-1.399409-1.1743035-1.399409-2.0887753 0-.9144717.5523297-1.7388859 1.399409-2.0887753.8470794-.3498894 1.8220668-.1563395 2.4702751.4903873.8848657.8828434.8848657 2.3139326 0 3.196776z"/></g></svg>
+    logo: "services-partner-swisscom.svg"
+
+
+service-content:
+  en:
+    - title: "Services"
+      subtitle: "Add the partner services and benefit from extensive advantages."
+      content:
+        - service: "Assurances"
+          text: "Pay–per–use or reward system – the new insurance models will not only improve your driving style. You either get cash back or benefit from special conditions at our ecosystem partners with a safe driving style!<br>Coming soon."
+        - service: "Fuel Stations"
+          text: "The digital fuel card from autoSense shows you the petrol station with the lowest prices in your area. Open the pump in your app, refuel your car and pay directly from your smartphone.<br>Coming soon."
+        - service: "Carwashes"
+          text: "Get your preferred wash program directly in the app, pay via your smartphone and wash your car completely stress–free. You can also use the points collected in the ecosystem as cash for your car wash!<br>Coming soon."
+        - service: "Garages"
+          text: "Vehicle service due? Make an appointment for the next service or tyre change quickly and easily in the app. Your free Totalmobil mobility insurance is renewed with every service."
+        - service: "Breakdown Services"
+          text: "Whether breakdown assistance on site, towing your vehicle, replacement mobility or vehicle return from abroad - with the wide range of services offered by Totalmobil! you can master any unplanned situation simply and conveniently."
+        - service: "Leasing"
+          text: "New digital leasing models give you more transparency about your current product, enable tailor–made solutions for you and show you attractive exchange conditions.<br>Coming soon."
+        - service: "Parking"
+          text: "autoSense makes it easier for you to find a parking space! Find public parking spaces directly in your app and pay easily and conveniently via your smartphone!<br>Coming soon."
+        - service: "WiFi"
+          text: "Travelling at maximum speed everywhere - whether in Switzerland or in other European countries. With the WiFi adapter, Swisscom offers you an integrated WiFi hotspot and various data packages including roaming at attractive prices, which can be obtained directly via the autoSense app."
+  fr:
+    - title: "Services"
+      subtitle: "Ajoutez les services partenaires et bénéficiez de nombreux avantages."
+      content:
+        - service: "Assurances"
+          text: "Paiement à l'utilisation ou système de récompense - les nouveaux modèles d'assurance n'amélioreront pas seulement votre style de conduite. Vous obtenez une remise en argent ou bénéficiez de conditions spéciales chez nos partenaires!<br>Coming soon."
+        - service: "Stations–service"
+          text: "La carte de carburant digitale d'autoSense vous indique la station-service avec les prix les plus bas de votre région. Ouvrez le distributeur dans votre application, faites le plein de carburant et payez directement dans votre smartphone.<br>Coming soon."
+        - service: "Installations de lavage"
+          text: "Choisissez votre programme de lavage préféré dans l'application, payez via votre smartphone et lavez votre voiture sans stress. Vous pouvez également utiliser les points collectés dans l'écosystème comme de l'argent comptant pour le lavage de voiture.<br>Coming soon."
+        - service: "Garages"
+          text: "Le service du véhicule à faire ? Prenez rendez-vous pour le prochain service ou changement de pneus rapidement et facilement dans l'application. Lors de chaque service, votre assurance mobilité Totalmobil gratuite est renouvelée."
+        - service: "Service de dépannage"
+          text: "Qu'il s'agisse de dépannage sur site, de remorquage de votre véhicule, de mobilité de remplacement ou de retour de véhicule de l'étranger - avec la large gamme de services offerts par Totalmobil ! vous pouvez maîtriser simplement et confortablement toute situation imprévue."
+        - service: "Leasing"
+          text: "Les nouveaux modèles de leasing numérique vous donnent plus de transparence sur votre produit actuel, vous offrent des solutions sur mesure et des conditions d'échange attrayantes.<br>Coming soon."
+        - service: "Parking"
+          text: "autoSense vous permet de trouver plus facilement une place de parking.  Trouvez des places de parking public directement dans votre application et payez facilement et confortablement via votre smartphone.<br>Coming soon."
+        - service: "WiFi"
+          text: "Voyager à la vitesse maximale partout, que ce soit en Suisse ou dans d'autres pays européens. Avec l'adaptateur WiFi, Swisscom vous offre un hotspot WiFi intégré et divers paquets de données, y compris l'itinérance à des prix attractifs, qui peuvent être obtenus directement via l'application autoSense."
+  de:
+    - title: "Services"
+      subtitle: "Fügen Sie Partnerservices hinzu und profitieren Sie von umfangreichen Vorteilen."
+      content:
+        - service: "Versicherungen"
+          text: "Pay-per-use oder Belohnungssystem - die neuen Versicherungsmodelle lassen Sie nicht nur Ihren Fahrstil verbessern. Sie erhalten entweder bares Geld zurück oder profitieren mit einem sicheren Fahrstil von Sonderkonditionen bei unseren Partnern!<br>Coming soon."
+        - service: "Tankstellen"
+          text: "Die digitale Tankkarte von autoSense zeigt Ihnen die Tankstelle mit den günstigsten Preise in Ihrer Umgebung an. Öffnen Sie die Zapfsäule in Ihrer App, tanken Sie Ihr Auto und bezahlen Sie direkt über Ihr Smartphone.<br>Coming soon."
+        - service: "Waschanlagen"
+          text: "Lösen Sie Ihr präferiertes Waschprogramm direkt in der App, bezahlen Sie über Ihr Smartphone und waschen Sie Ihr Fahrzeug völlig stressfrei. Zudem können Sie die bei den Partnern gesammelten Punkte als bares Geld für die Autowäsche verwenden!<br>Coming soon."
+        - service: "Garagen"
+          text: "Fahrzeugservice fällig? Vereinbaren Sie einfach und schnell in der App den Termin für den nächsten Service oder den Pneuwechsel. Bei jedem Service erneuert sich zudem Ihre kostenlose Mobilitätsversicherung Totalmobil!"
+        - service: "Pannendienst"
+          text: "Ob Pannenhilfe vor Ort, Abschleppen Ihres Fahrzeugs, Ersatzmobilität oder Fahrzeugrückführung aus dem  Ausland - mit dem vielfältigen Leistungsumfang von Totalmobil! meistern Sie jede ungeplante Situation einfach und bequem."
+        - service: "Leasing"
+          text: "Neue digitale Leasingmodelle geben Ihnen mehr Transparenz über Ihr aktuelles Produkt, ermöglichen massgeschneiderte Lösungen für Sie und zeigen Ihnen attraktive Wechselkonditionen auf.<br>Coming soon."
+        - service: "Parking"
+          text: "autoSense erleichtert Ihnen die Parkplatzsuche! Finden Sie öffentliche Parkplätze direkt in Ihrer App und bezahlen Sie einfach und bequem über Ihr Smartphone!<br>Coming soon."
+        - service: "WiFi"
+          text: "Überall mit maximalem Speed unterwegs - ob in der Schweiz oder im europäischen Ausland. Swisscom bietet Ihnen mit dem WiFi-Adapter einen integrierten WiFi-Hotspot und verschiedene Datenpakete inkl. Roaming zu attraktiven Preisen, welche direkt über die autoSense App bezogen werden können."
+  it:
+    - title: "Servizi"
+      subtitle: "Aggiungete servizi per i partner e approfittate dei numerosi vantaggi."
+      content:
+        - service: "Assicurazione"
+          text: "Sistema pay-per-use o premiante - i nuovi modelli assicurativi non solo miglioreranno il vostro stile di guida. Riceverete un rimborso o condizioni speciali presso i nostri partner!<br>Coming soon."
+        - service: "Distributori"
+          text: "La scheda carburante digitale autoSense vi mostra il distributore di benzina con i prezzi più bassi della vostra zona. Apri il dispenser nella tua applicazione, fai rifornimento e paghi direttamente sul tuo smartphone!<br>Coming soon."
+        - service: "Impianti di lavaggio"
+          text: "Scegli il tuo programma di lavaggio preferito nell'applicazione, paghi con il tuo smartphone e lava la tua auto senza stress. È inoltre possibile utilizzare i punti raccolti nell'ecosistema come contanti per l'autolavaggio!<br>Coming soon."
+        - service: "Autofficina"
+          text: "Assistenza veicoli a pagamento? Prendi un appuntamento per il prossimo servizio di assistenza o per il cambio dei pneumatici in modo semplice e veloce direttamente nell'app. La tua assicurazione gratuita per la mobilità Totalmobil si rinnova con ogni servizio."
+        - service: "Soccorso stradale"
+          text: "Che si tratti di assistenza in loco, traino del veicolo, mobilità sostitutiva o rientro dall'estero, con l'ampia gamma di servizi offerti da Totalmobil potrete gestire qualsiasi situazione imprevista in modo semplice e comodo."
+        - service: "Leasing"
+          text: "I nuovi modelli di leasing digitale vi offrono maggiore trasparenza sul vostro prodotto attuale, consentono soluzioni su misura per voi e vi mostrano condizioni di cambio interessanti.<br>Coming soon."
+        - service: "Parcheggio"
+          text: "AutoSense facilita la ricerca del parcheggio! Trova un parcheggio pubblico direttamente nella tua app e paga in modo semplice e comodo con il tuo smartphone!<br>Coming soon."
+        - service: "WiFi"
+          text: "Überall mit maximalem Speed unterwegs - ob in der Schweiz oder im europäischen Ausland. Swisscom bietet Ihnen mit dem WiFi-Adapter einen integrierten WiFi-Hotspot und verschiedene Datenpakete inkl. Roaming zu attraktiven Preisen, welche direkt über die autoSense App bezogen werden können."
+      
+compatibility-check:
+  en:
+    compatibility-check:
+      section_title: "Can I use autoSense in my car?"
+      section_p: "autoSense is compatible with many vehicles from model year 2001 for gasoline engines and 2004 for diesel engines."
+      where_to_install_title: "Where is the OBD connector in your car?"
+      where_to_install_p: "Choose your car and see where you need to plug in autoSense."
+      section_positive:  ":-) Your car is compatible with autoSense."
+      section_negative: ":-( Unfortunately your car is not compatible with autoSense."
+      car_year: "Car year"
+      car_make: "Car make"
+      car_model: "Car model"
+      year: "Year"
+      make: "Make"
+      model: "Model"
+  fr:
+    compatibility-check:
+      section_title: "Puis-je utiliser autoSense dans ma voiture?"
+      section_p: "autoSense est compatible avec de nombreux véhicules immatriculés à partir de 2001 pour les moteurs à essence et à partir de 2004 pour les moteurs à diesel."
+      where_to_install_title: "Où est le connecteur OBD dans votre voiture?"
+      where_to_install_p: "Choisissez votre voiture et voyez où vous devez brancher autoSense."
+      section_positive: ":-) Votre véhicule est compatible avec autoSense."
+      section_negative: ":-( Malheureusement, votre véhicule n'est pas compatible avec autoSense."
+      car_year: "Année de la voiture"
+      car_make: "Marque de voiture"
+      car_model: "Modèle de voiture"
+      year: "Année"
+      make: "Marque"
+      model: "Modèle"
+  de:
+    compatibility-check:
+      section_title: "Kann ich autoSense in meinem Auto benutzen?"
+      section_p: "autoSense ist kompatibel mit vielen Fahrzeugen ab Modelljahr 2001 bei Benzinmotoren und 2004 bei Dieselmotoren."
+      where_to_install_title: "Wo ist der OBD-Anschluss in Ihrem Auto?"
+      where_to_install_p: "Wählen Sie Ihr Auto und sehen Sie, wo Sie autoSense anschließen müssen."
+      section_positive: ":-) Ihr Fahrzeug ist kompatibel mit autoSense."
+      section_negative: ":-( Leider ist Ihr Fahrzeug nicht kompatibel mit autoSense."
+      car_year: "Auto Jahr"
+      car_make: "Automarke"
+      car_model: "Automodell"
+      year: "Jahr"
+      make: "Marke"
+      model: "Modell" 
+  it:
+    compatibility-check:
+      section_title: "Posso usare autoSense sulla mia auto?"
+      section_p: "autoSense è compatibile con molti veicoli, a partire dall'anno 2001 per i motori a benzina e dal 2004 per i motori diesel."
+      where_to_install_title: "Dove si trova il connettore OBD nella vostra vettura?"
+      where_to_install_p: "Selezionare la vettura e vedere dove collegare autoSense"
+      section_positive: ":-) Il veicolo è compatibile con autoSense."
+      section_negative: ":-( Purtroppo l'auto non è compatibile con autoSense."
+      car_year: "Anno auto"
+      car_make: "Marca"
+      car_model: "Modelle auto"
+      year: "Anno"
+      make: "Fare"
+      model: "Modello"
+
+price:
+  en:
+    section_title: "Start your journey"
+    section_p: "Connect to your car via the autoSense app: The app supports you with a variety of functions, valuable information and services."
+    detail_sim: "SIM Karte"
+    detail_mobile_app: "Mobile App"
+    detail_one_time: "One-off"
+    no_wifi_title: "Without WiFi Hotspot"
+    no_wifi_price: "CHF 69.–*"
+    wifi_title: "With WiFi Hotspot"
+    wifi_data: "As a gift: One-time 3GB data package (valid for 30 days)"
+    wifi_price: "CHF 99.–*"
+    purchase_no_wifi: "Jetzt für CHF 69.–* bestellen"
+    purchase_wifi: "Order now"
+    one_time: "As a gift: autoSene with WiFi Hotspot comes with one-time only 3 GB data package (valid for 30 days)"
+    checkmark: <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M9 0C4.03615385 0 0 4.03615385 0 9c0 4.9638462 4.03615385 9 9 9 4.9638462 0 9-4.0361538 9-9 0-4.96384615-4.0361538-9-9-9zM7.81615385 12.2607692L5.04692308 9.4915385c-.27-.27-.27-.7061539 0-.9761539s.70615384-.27.97615384 0l2.11846154 2.1184616L11.16 5.20615385c.1869231-.3323077.6092308-.45692308.9415385-.27.3323077.18692307.456923.60923077.27.94153846L8.91 12.1084615c-.11769231.2076923-.33923077.353077-.60230769.353077-.18 0-.36-.0692308-.49153846-.2007693z" fill="#001155" fill-rule="evenodd"/></svg>
+    info: "*No recurring costs if at least one partner service (AMAG) is activated. Without partner service: CHF 5.–/month"
+    info_icon: <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none" opacity=".39999998"><circle fill="#001155" cx="9" cy="9" r="9"/><path d="M10.1 12.380912H12c.3313708 0 .6.2686291.6.6 0 .3313708-.2686292.6-.6.6H7c-.33137085 0-.6-.2686292-.6-.6 0-.3313709.26862915-.6.6-.6h1.9V8.31834571H7.3973384c-.33137085 0-.6-.26862915-.6-.6s.26862915-.6.6-.6H9.5c.33137085 0 .6.26862915.6.6V12.380912zm0-7.68207849c0 .33137085-.26862915.6-.6.6s-.6-.26862915-.6-.6V3c0-.33137085.26862915-.6.6-.6s.6.26862915.6.6v1.69883351z" fill="#FFFFFF"/></g></svg>
+    data_package_title: "Overview Prices Data Packages"
+    data_package_1GB: "1 GB Switzerland and Europe* - 10.– CHF (valid for 30 days)"
+    data_package_3GB: "3 GB Switzerland and Europe* - 20.– CHF (valid for 30 days)"
+    data_package_10GB: "10 GB Switzerland and Europe* - 50.– CHF (valid for 30 days)"
+    allowed_countries: "*Andorra, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Hungary, Iceland, Ireland, Guernsey, Isle of Man, Italy, Jersey, Latvia, Lithuania, Luxembourg, Malta, Monaco, Netherlands, Norway, Poland, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Vatican, Cyprus."
+  fr:
+    section_title: "Commencez votre voyage"
+    section_p: "Connectez-vous à votre voiture via l'application autoSense : L'application vous offre une variété de fonctions, d'informations et de services."
+    detail_sim: "Carte SIM"
+    detail_mobile_app: "Mobile App"
+    detail_one_time: "Ponctuel"
+    no_wifi_title: "Sans WiFi Hotspot"
+    no_wifi_price: "CHF 69.–*"
+    wifi_title: "Avec WiFi Hotspot"
+    wifi_data: "Un cadeau pour vous: Paquet de données unique de 3GB (valable 30 jours)"
+    wifi_price: "CHF 99.–*"
+    purchase_no_wifi: "Jetzt für CHF 69.  * bestellen"
+    purchase_wifi: "Commander maintenant"
+    one_time: "Un cadeau pour vous: Paquet de données unique de 3GB (valable 30 jours)"
+    checkmark: <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M9 0C4.03615385 0 0 4.03615385 0 9c0 4.9638462 4.03615385 9 9 9 4.9638462 0 9-4.0361538 9-9 0-4.96384615-4.0361538-9-9-9zM7.81615385 12.2607692L5.04692308 9.4915385c-.27-.27-.27-.7061539 0-.9761539s.70615384-.27.97615384 0l2.11846154 2.1184616L11.16 5.20615385c.1869231-.3323077.6092308-.45692308.9415385-.27.3323077.18692307.456923.60923077.27.94153846L8.91 12.1084615c-.11769231.2076923-.33923077.353077-.60230769.353077-.18 0-.36-.0692308-.49153846-.2007693z" fill="#001155" fill-rule="evenodd"/></svg>
+    info: "*Pas de frais récurrents si au moins un service partenaire (AMAG) est activé. Sans service partenaire : CHF 5/mois."
+    info_icon: <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none" opacity=".39999998"><circle fill="#001155" cx="9" cy="9" r="9"/><path d="M10.1 12.380912H12c.3313708 0 .6.2686291.6.6 0 .3313708-.2686292.6-.6.6H7c-.33137085 0-.6-.2686292-.6-.6 0-.3313709.26862915-.6.6-.6h1.9V8.31834571H7.3973384c-.33137085 0-.6-.26862915-.6-.6s.26862915-.6.6-.6H9.5c.33137085 0 .6.26862915.6.6V12.380912zm0-7.68207849c0 .33137085-.26862915.6-.6.6s-.6-.26862915-.6-.6V3c0-.33137085.26862915-.6.6-.6s.6.26862915.6.6v1.69883351z" fill="#FFFFFF"/></g></svg>
+    data_package_title: "Prix des paquets de données"
+    data_package_1GB: "1 GB Suisse et Europe* - 10 CHF (valable 30 jours)"
+    data_package_3GB: "3 GB Suisse et Europe* - 20 CHF (valable 30 jours)"
+    data_package_10GB: "10 GB Suisse et Europe* - 50 CHF (valable 30 jours)"
+    allowed_countries: "*Andorra, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Hungary, Iceland, Ireland, Guernsey, Isle of Man, Italy, Jersey, Latvia, Lithuania, Luxembourg, Malta, Monaco, Netherlands, Norway, Poland, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Vatican, Cyprus."
+  de:
+    section_title: "Beginnen Sie Ihre Reise"
+    section_p: "Verbinden Sie sich mit Ihrem Auto über die autoSense App: Die App unterstützt Sie mit einer Vielzahl von Funktionen, wertvollen Informationen und Services."
+    detail_sim: "SIM Karte"
+    detail_mobile_app: "Mobile App"
+    detail_one_time: "Einmalig"
+    no_wifi_title: "Ohne WiFi Hotspot"
+    no_wifi_price: "CHF 69.–*"
+    wifi_title: "Mit WiFi Hotspot"
+    wifi_data: "Ein Geschenk an Sie: Einmaliges 3GB Datenpaket ( 30 Tage gültig)"
+    wifi_price: "CHF 99.–*"
+    purchase_no_wifi: "Jetzt für CHF 69.–* bestellen"
+    purchase_wifi: "Jetzt Bestellen"
+    one_time: "Ein Geschenk an Sie: Einmaliges 3GB Datenpaket ( 30 Tage gültig)"
+    checkmark: <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M9 0C4.03615385 0 0 4.03615385 0 9c0 4.9638462 4.03615385 9 9 9 4.9638462 0 9-4.0361538 9-9 0-4.96384615-4.0361538-9-9-9zM7.81615385 12.2607692L5.04692308 9.4915385c-.27-.27-.27-.7061539 0-.9761539s.70615384-.27.97615384 0l2.11846154 2.1184616L11.16 5.20615385c.1869231-.3323077.6092308-.45692308.9415385-.27.3323077.18692307.456923.60923077.27.94153846L8.91 12.1084615c-.11769231.2076923-.33923077.353077-.60230769.353077-.18 0-.36-.0692308-.49153846-.2007693z" fill="#001155" fill-rule="evenodd"/></svg>
+    info: "*Keine wiederkehrenden Kosten, wenn mindestens ein Partnerservice (AMAG) aktiviert wird. Ohne Partnerservice: CHF 5.–/Mt."
+    info_icon: <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none" opacity=".39999998"><circle fill="#001155" cx="9" cy="9" r="9"/><path d="M10.1 12.380912H12c.3313708 0 .6.2686291.6.6 0 .3313708-.2686292.6-.6.6H7c-.33137085 0-.6-.2686292-.6-.6 0-.3313709.26862915-.6.6-.6h1.9V8.31834571H7.3973384c-.33137085 0-.6-.26862915-.6-.6s.26862915-.6.6-.6H9.5c.33137085 0 .6.26862915.6.6V12.380912zm0-7.68207849c0 .33137085-.26862915.6-.6.6s-.6-.26862915-.6-.6V3c0-.33137085.26862915-.6.6-.6s.6.26862915.6.6v1.69883351z" fill="#FFFFFF"/></g></svg>
+    data_package_title: "Übersicht Preise Datenpakete"
+    data_package_1GB: "1 GB Schweiz und Europa* - 10 CHF (gültig für 30 Tage)"
+    data_package_3GB: "3 GB Schweiz und Europa* - 20 CHF (gültig für 30 Tage)"
+    data_package_10GB: "10 GB Schweiz und Europa* - 50 CHF (gültig für 30 Tage)"
+    allowed_countries: "*Andorra, Belgien, Bulgarien, Dänemark, Deutschland, Estland, Färöer, Finnland, Frankreich, Gibraltar, Griechenland, Grossbritannien, Guernsey, Irland, Island, Isle of Man, Italien, Jersey, Kroatien, Lettland, Litauen, Luxemburg, Malta, Monaco, Niederlande, Norwegen, Österreich, Polen, Portugal, Rumänien, San Marino, Schweden, Slowakei, Slowenien, Spanien, Tschechien, Ungarn, Vatikan, Zypern."
+  it:
+    section_title: "Inizia il tuo viaggio"
+    section_p: "Connettiti alla tua auto tramite l'app autoSense: l'app ti supporta con una varietà di funzioni, informazioni preziose e servizi."
+    detail_sim: "Scheda SIM"
+    detail_mobile_app: "App mobile"
+    detail_one_time: "Unico"
+    no_wifi_title: "Senza hotspot WiFi"
+    no_wifi_price: "CHF 69.–*"
+    wifi_title: "Con Hotspot WiFi"
+    wifi_data: "Un regalo a voi: Pacchetto dati unico da 30 GB (valido per 30 giorni)"
+    wifi_price: "CHF 99.–*"
+    purchase_no_wifi: "Jetzt für CHF 69.–* bestellen"
+    purchase_wifi: "Ordina ora"
+    one_time: "Un regalo a voi: Pacchetto dati unico da 30 GB (valido per 30 giorni)"
+    checkmark: <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M9 0C4.03615385 0 0 4.03615385 0 9c0 4.9638462 4.03615385 9 9 9 4.9638462 0 9-4.0361538 9-9 0-4.96384615-4.0361538-9-9-9zM7.81615385 12.2607692L5.04692308 9.4915385c-.27-.27-.27-.7061539 0-.9761539s.70615384-.27.97615384 0l2.11846154 2.1184616L11.16 5.20615385c.1869231-.3323077.6092308-.45692308.9415385-.27.3323077.18692307.456923.60923077.27.94153846L8.91 12.1084615c-.11769231.2076923-.33923077.353077-.60230769.353077-.18 0-.36-.0692308-.49153846-.2007693z" fill="#001155" fill-rule="evenodd"/></svg>
+    info: "*Nessun costo ricorrente se è attivato almeno un servizio partner (AMAG). Senza servizio partner: CHF 5/mese"
+    info_icon: <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none" opacity=".39999998"><circle fill="#001155" cx="9" cy="9" r="9"/><path d="M10.1 12.380912H12c.3313708 0 .6.2686291.6.6 0 .3313708-.2686292.6-.6.6H7c-.33137085 0-.6-.2686292-.6-.6 0-.3313709.26862915-.6.6-.6h1.9V8.31834571H7.3973384c-.33137085 0-.6-.26862915-.6-.6s.26862915-.6.6-.6H9.5c.33137085 0 .6.26862915.6.6V12.380912zm0-7.68207849c0 .33137085-.26862915.6-.6.6s-.6-.26862915-.6-.6V3c0-.33137085.26862915-.6.6-.6s.6.26862915.6.6v1.69883351z" fill="#FFFFFF"/></g></svg>
+    data_package_title: "Panoramica pacchetti dati prezzi"
+    data_package_1GB: "1 GB in Svizzera e in Europa* - 10 CHF (valido per 30 giorni)"
+    data_package_3GB: "3 GB Svizzera ed Europa* - 20 CHF (valido per 30 giorni)"
+    data_package_10GB: "10 GB Svizzera ed Europa* - 50 CHF (valido per 30 giorni)"
+    allowed_countries: "*Andorra, Austria, Belgio, Bulgaria, Croazia, Cipro, Repubblica Ceca, Danimarca, Estonia, Finlandia, Francia, Germania, Gibilterra, Grecia, Ungheria, Islanda, Irlanda, Guernsey, Isola di Man, Italia, Jersey, Lettonia, Lituania, Lussemburgo, Malta, Monaco, Norvegia, Paesi Bassi, Polonia, Portogallo, Romania, San Marino, Slovacchia, Slovenia, Spagna, Svezia, Regno Unito, Vaticano, Cipro."
+
+
+cta-photo:
+  en:
+    cta-photo:
+      section_title: "Let's start"
+      section_p: "Download now and start using our demo."
+  fr:
+    cta-photo:
+      section_title: "Commencez maintenant!"
+      section_p: "Téléchargez maintenant et utilisez notre démo."
+  de:
+    cta-photo:
+      section_title: "Legen Sie los!"
+      section_p: "Jetzt herunterladen und unsere Demo nutzen."
+  it:
+    cta-photo:
+      section_title: "Andiamo avanti!"
+      section_p: "Scarica ora e usa il nostro demo."
+
+
+
+how-to-do:
+  en:
+    how-to-do:
+      section_title: "How to do"
+      section_p: "Connect your vehicle to the autoSense App in just a few steps: Smart Services provide more safety and comfort and you save time and money."
+      section_btn_watch: "Watch our video"
+      section_btn_faq: "FAQ"
+      section_step_1: "Download autoSense App"
+      section_step_2: "Connect the adapter to the vehicle"
+      section_step_3: "Start driving and retrieve information about the app"
+
+  fr:
+    how-to-do:
+      section_title: "Comment ça marche?"
+      section_p: "Connectez votre véhicule à l'application autoSense en quelques étapes : les services intelligents offrent plus de sécurité et de confort et vous économisez du temps et de l'argent."
+      section_btn_watch: "Regardez notre vidéo"
+      section_btn_faq: "FAQ"
+      section_step_1: "Téléchargez l’application autoSense"
+      section_step_2: "Connecter l'adaptateur à la voiture"
+      section_step_3: "Commencez à conduire et récupérez vos informations sur l'application"
+  de:
+    how-to-do:
+      section_title: "Wie funktioniert’s?"
+      section_p: "Verbinden Sie in wenigen Schritten Ihr Fahrzeug mit der autoSense App: Smarte Services sorgen für mehr Sicherheit sowie Komfort und Sie sparen Zeit und Geld."
+      section_btn_watch: "Schau das Video"
+      section_btn_faq: "FAQ"
+      section_step_1: "autoSense-App herunterladen"
+      section_step_2: "Adapter mit dem Fahrzeug verbinden"
+      section_step_3: "Losfahren und Informationen über die App abrufen"
+  it:
+    how-to-do:
+      section_title: "Come funziona?"
+      section_p: "Collega il tuo veicolo all'app autoSense in pochi semplici passi: i servizi intelligenti offrono più sicurezza e comfort, risparmiando tempo e denaro."
+      section_btn_watch: "Guarda il video"
+      section_btn_faq: "FAQ"
+      section_step_1: "Scarica l’applicazione autoSense"
+      section_step_2: "Collegare l’adattatore all’auto"
+      section_step_3: "Inizia a guidare e recupera le informazioni sull'applicazione"
+
+
+faq:
+  en:
+    - title: "General"
+      questions:  
+        - question: "Can I also use autoSense abroad?"
+          answer: "Yes, you can also use autoSense abroad. In order for your data to be up-to-date in your autoSense app, you must have activated the 'mobile data' function in the settings."
+        - question: "What should I do if I sell my car?"
+          answer: "If you change your car, you can still use the dongle. For this you take your dongle and connect it with the new car. Be sure to capture the chassis number of your new vehicle so the dongle can transfer the data to your app. If you have any questions, the customer service will be happy to help."
+        - question: "Do I incur further costs by using the dongle?"
+          answer: "No, using the dongle will not incur any additional costs for you. However, if you opt for a dongle with WiFi connectivity, you can request different data packages in the app."
+        - question: "Who is behind autoSense?"
+          answer: "autoSense is a Swisscom project in which AMAG also works. With autoSense Beta is to be tested, which customer needs around the topic \"connected car\" exist and how these can be fulfilled in the best possible way."
+    - title: "Installation"
+      questions:  
+        - question: "How do I know if autoSense works in my car?"
+          answer: "Simply use the compatibility check, which can be found here on the website. Thus, you can easily and for each car model check whether autoSense can be used in your vehicle."
+        - question: "I can not find my vehicle in the compatibility check and I'm not sure if autoSense works in my vehicle. What do I have to do?"
+          answer: "If you can not find your vehicle in the compatibility check, contact autoSense Customer Service."
+        - question: "Where do I have to put the dongle?"
+          answer: "To see where and how to install the dongle in your vehicle, it's a good idea to use the installation guide on the website. There you will find all the individual installation steps. Click here for the installation instructions."
+        - question: "Why do I need an app login?"
+          answer: "After downloading the autoSense app you will be asked to create an account. In your account, you can retrieve various information about your car or make configurations. Changes to personal information can be made directly in the account."
+        - question: "Why do I have to scan and upload the ID?"
+          answer: "In Switzerland, a proof of identity is required for each issued SIM card. Since a SIM card is installed in the dongle, the proof according to the Swiss law is unavoidable. However, if you decide to use a dongle without SIM connectivity, the ID Scan will be canceled."
+    - title: "APP"
+      questions:  
+        - question: "Where can I download the autoSense app?"
+          answer: "You can easily download the autoSense App from the App Store or Google Play for free."
+        - question: "On which operating systems can I use the app?"
+          answer: "You can use the app on all popular iOS and Android smartphones. For Windows operating systems, we do not currently offer an app."
+        - question: "How can I link the app to my car?"
+          answer: "Plug the autoSense dongle into the OBD II port of your car. Instructions for locating the OBD II port in your vehicle can be found here . Download the autoSense app in the app store and follow the instructions in the app. If you need help with this, please contact the autoSense customer service."
+  fr:
+    - title: "General"
+      questions:  
+        - question: "Can I also use autoSense abroad?"
+          answer: "Yes, you can also use autoSense abroad. In order for your data to be up-to-date in your autoSense app, you must have activated the 'mobile data' function in the settings."
+        - question: "What should I do if I sell my car?"
+          answer: "If you change your car, you can still use the dongle. For this you take your dongle and connect it with the new car. Be sure to capture the chassis number of your new vehicle so the dongle can transfer the data to your app. If you have any questions, the customer service will be happy to help."
+        - question: "Do I incur further costs by using the dongle?"
+          answer: "No, using the dongle will not incur any additional costs for you. However, if you opt for a dongle with WiFi connectivity, you can request different data packages in the app."
+        - question: "Who is behind autoSense?"
+          answer: "autoSense is a Swisscom project in which AMAG also works. With autoSense Beta is to be tested, which customer needs around the topic \"connected car\" exist and how these can be fulfilled in the best possible way."
+    - title: "Installation"
+      questions:  
+        - question: "How do I know if autoSense works in my car?"
+          answer: "Simply use the compatibility check, which can be found here on the website. Thus, you can easily and for each car model check whether autoSense can be used in your vehicle."
+        - question: "I can not find my vehicle in the compatibility check and I'm not sure if autoSense works in my vehicle. What do I have to do?"
+          answer: "If you can not find your vehicle in the compatibility check, contact autoSense Customer Service."
+        - question: "Where do I have to put the dongle?"
+          answer: "To see where and how to install the dongle in your vehicle, it's a good idea to use the installation guide on the website. There you will find all the individual installation steps. Click here for the installation instructions."
+        - question: "Why do I need an app login?"
+          answer: "After downloading the autoSense app you will be asked to create an account. In your account, you can retrieve various information about your car or make configurations. Changes to personal information can be made directly in the account."
+        - question: "Why do I have to scan and upload the ID?"
+          answer: "In Switzerland, a proof of identity is required for each issued SIM card. Since a SIM card is installed in the dongle, the proof according to the Swiss law is unavoidable. However, if you decide to use a dongle without SIM connectivity, the ID Scan will be canceled."
+    - title: "APP"
+      questions:  
+        - question: "Where can I download the autoSense app?"
+          answer: "You can easily download the autoSense App from the App Store or Google Play for free."
+        - question: "On which operating systems can I use the app?"
+          answer: "You can use the app on all popular iOS and Android smartphones. For Windows operating systems, we do not currently offer an app."
+        - question: "How can I link the app to my car?"
+          answer: "Plug the autoSense dongle into the OBD II port of your car. Instructions for locating the OBD II port in your vehicle can be found here . Download the autoSense app in the app store and follow the instructions in the app. If you need help with this, please contact the autoSense customer service."
+  de:
+    - title: "General"
+      questions:  
+        - question: "Can I also use autoSense abroad?"
+          answer: "Yes, you can also use autoSense abroad. In order for your data to be up-to-date in your autoSense app, you must have activated the 'mobile data' function in the settings."
+        - question: "What should I do if I sell my car?"
+          answer: "If you change your car, you can still use the dongle. For this you take your dongle and connect it with the new car. Be sure to capture the chassis number of your new vehicle so the dongle can transfer the data to your app. If you have any questions, the customer service will be happy to help."
+        - question: "Do I incur further costs by using the dongle?"
+          answer: "No, using the dongle will not incur any additional costs for you. However, if you opt for a dongle with WiFi connectivity, you can request different data packages in the app."
+        - question: "Who is behind autoSense?"
+          answer: "autoSense is a Swisscom project in which AMAG also works. With autoSense Beta is to be tested, which customer needs around the topic \"connected car\" exist and how these can be fulfilled in the best possible way."
+    - title: "Installation"
+      questions:  
+        - question: "How do I know if autoSense works in my car?"
+          answer: "Simply use the compatibility check, which can be found here on the website. Thus, you can easily and for each car model check whether autoSense can be used in your vehicle."
+        - question: "I can not find my vehicle in the compatibility check and I'm not sure if autoSense works in my vehicle. What do I have to do?"
+          answer: "If you can not find your vehicle in the compatibility check, contact autoSense Customer Service."
+        - question: "Where do I have to put the dongle?"
+          answer: "To see where and how to install the dongle in your vehicle, it's a good idea to use the installation guide on the website. There you will find all the individual installation steps. Click here for the installation instructions."
+        - question: "Why do I need an app login?"
+          answer: "After downloading the autoSense app you will be asked to create an account. In your account, you can retrieve various information about your car or make configurations. Changes to personal information can be made directly in the account."
+        - question: "Why do I have to scan and upload the ID?"
+          answer: "In Switzerland, a proof of identity is required for each issued SIM card. Since a SIM card is installed in the dongle, the proof according to the Swiss law is unavoidable. However, if you decide to use a dongle without SIM connectivity, the ID Scan will be canceled."
+    - title: "APP"
+      questions:  
+        - question: "Where can I download the autoSense app?"
+          answer: "You can easily download the autoSense App from the App Store or Google Play for free."
+        - question: "On which operating systems can I use the app?"
+          answer: "You can use the app on all popular iOS and Android smartphones. For Windows operating systems, we do not currently offer an app."
+        - question: "How can I link the app to my car?"
+          answer: "Plug the autoSense dongle into the OBD II port of your car. Instructions for locating the OBD II port in your vehicle can be found here . Download the autoSense app in the app store and follow the instructions in the app. If you need help with this, please contact the autoSense customer service."
+  it:
+    - title: "General"
+      questions:  
+        - question: "Can I also use autoSense abroad?"
+          answer: "Yes, you can also use autoSense abroad. In order for your data to be up-to-date in your autoSense app, you must have activated the 'mobile data' function in the settings."
+        - question: "What should I do if I sell my car?"
+          answer: "If you change your car, you can still use the dongle. For this you take your dongle and connect it with the new car. Be sure to capture the chassis number of your new vehicle so the dongle can transfer the data to your app. If you have any questions, the customer service will be happy to help."
+        - question: "Do I incur further costs by using the dongle?"
+          answer: "No, using the dongle will not incur any additional costs for you. However, if you opt for a dongle with WiFi connectivity, you can request different data packages in the app."
+        - question: "Who is behind autoSense?"
+          answer: "autoSense is a Swisscom project in which AMAG also works. With autoSense Beta is to be tested, which customer needs around the topic \"connected car\" exist and how these can be fulfilled in the best possible way."
+    - title: "Installation"
+      questions:  
+        - question: "How do I know if autoSense works in my car?"
+          answer: "Simply use the compatibility check, which can be found here on the website. Thus, you can easily and for each car model check whether autoSense can be used in your vehicle."
+        - question: "I can not find my vehicle in the compatibility check and I'm not sure if autoSense works in my vehicle. What do I have to do?"
+          answer: "If you can not find your vehicle in the compatibility check, contact autoSense Customer Service."
+        - question: "Where do I have to put the dongle?"
+          answer: "To see where and how to install the dongle in your vehicle, it's a good idea to use the installation guide on the website. There you will find all the individual installation steps. Click here for the installation instructions."
+        - question: "Why do I need an app login?"
+          answer: "After downloading the autoSense app you will be asked to create an account. In your account, you can retrieve various information about your car or make configurations. Changes to personal information can be made directly in the account."
+        - question: "Why do I have to scan and upload the ID?"
+          answer: "In Switzerland, a proof of identity is required for each issued SIM card. Since a SIM card is installed in the dongle, the proof according to the Swiss law is unavoidable. However, if you decide to use a dongle without SIM connectivity, the ID Scan will be canceled."
+    - title: "APP"
+      questions:  
+        - question: "Where can I download the autoSense app?"
+          answer: "You can easily download the autoSense App from the App Store or Google Play for free."
+        - question: "On which operating systems can I use the app?"
+          answer: "You can use the app on all popular iOS and Android smartphones. For Windows operating systems, we do not currently offer an app."
+        - question: "How can I link the app to my car?"
+          answer: "Plug the autoSense dongle into the OBD II port of your car. Instructions for locating the OBD II port in your vehicle can be found here . Download the autoSense app in the app store and follow the instructions in the app. If you need help with this, please contact the autoSense customer service."
+
+
+footer:
+  en:
+    footer:
+      section_address: "© 2018 autoSense AG / Konradstrasse 12, 8005 Zürich / info@autoSense.ch / +41 800 099 099"
+      section_newsletter: "Stay informed about the new possibilities of your networked vehicle."
+      section_input: "E-Mail Address"
+      section_btn: "Send"
+      section_lang_switcher: "Change language"
+  fr:
+    footer:
+      section_address: "© 2018 autoSense AG / Konradstrasse 12, 8005 Zürich / info@autoSense.ch / +41 800 099 099"
+      section_newsletter: "Restez informé des nouvelles possibilités de votre véhicule en réseau."
+      section_input: "Adresse e-mail"
+      section_btn: "Envoyer"
+      section_lang_switcher: "Changer de langue"
+  de:
+    footer:
+      section_address: "© 2018 autoSense AG / Konradstrasse 12, 8005 Zürich / info@autoSense.ch / +41 800 099 099"
+      section_newsletter: "Bleiben Sie auf dem Laufenden zu den neuen Möglichkeiten Ihres vernetzten Fahrzeugs."
+      section_input: "E-Mail Adresse"
+      section_btn: "Senden"
+      section_lang_switcher: "Sprache ändern"
+  it:
+    footer:
+      section_address: "© 2018 autoSense AG / Konradstrasse 12, 8005 Zürich / info@autoSense.ch / +41 800 099 099"
+      section_newsletter: "Rimani informato sulle nuove potenzialità del tuo veicolo on-line."
+      section_input: "Indirizzo email"
+      section_btn: "Inviare"
+      section_lang_switcher: "Cambia lingua"
+
+
+legal-notice:
+  en:
+    contact_title: "Contact"
+    contact_address: "autoSense AG<br>Konradstrasse 12, 8005 Zürich<br>+41 800 099 099<br>info@autoSense.ch"
+    commercial_title: "Commercial Registry Entry"
+    commercial_content: "<strong>Company Name:</strong> autoSense AG<br><strong>Number:</strong> CH02030460193<br><strong>Commercial Registry:</strong> Kanton Zürich<br><strong>VAT Registration:</strong> CHE-252.080.680.680 MWST"
+  fr:
+    contact_title: "Contacte"
+    contact_address: "autoSense AG<br>Konradstrasse 12, 8005 Zürich<br>+41 800 099 099<br>info@autoSense.ch"
+    commercial_title: "Inscription au registre du commerce"
+    commercial_content: "<strong>Raison sociale:</strong> autoSense AG<br><strong>Numéro:</strong> CH02030460193<br><strong>Bureau du registre du commerce:</strong> Canton de Zurich <br><strong>Numéro de TVA:</strong> CHE-252.080.680.680 MWST"
+  de:
+    contact_title: "Kontakt"
+    contact_address: "autoSense AG<br>Konradstrasse 12, 8005 Zürich<br>+41 800 099 099<br>info@autoSense.ch"
+    commercial_title: "Handelsregistereintrag"
+    commercial_content: "<strong>Eingetragener Firmenname:</strong> autoSense AG<br><strong>Nummer:</strong> CH02030460193<br><strong>Handelsregisteramt:</strong> Kanton Zürich<br><strong>Mehrwertsteuernummer:</strong> CHE-252.080.680.680 MWST"
+  it:
+    contact_title: "Note legali"
+    contact_address: "autoSense AG<br>Konradstrasse 12, 8005 Zurigo<br>+41 800 099 099<br>info@autoSense.ch"
+    commercial_title: "Iscrizione nel registro di commercio"
+    commercial_content: "<strong>Nome dell’azienda registrata:</strong> autoSense AG<br><strong>Numero azienda:</strong> CH02030460193<br><strong>Ufficio del registro di commercio:</strong> Cantone di Zurigo<br><strong>Partita IVA:</strong> CHE-252.080.680.680 MWST"
+
+
+profiles:
+  - name: "Jaap Vossen"
+    title: "CEO"
+    pic: "jaap-vossen.png"
+  - name: "Sachin Mittal"
+    title: "CTO"
+    pic: "sachin-mittal.png"
+  - name: "Nicolas Noth"
+    title: "CCO"
+    pic: "nicolas-noth.png"
+  - name: "Manon Bolli"
+    title: "Product Manager"
+    pic: "manon-bolli.png"
+  - name: "Massimo Redigolo"
+    title: "Key Account Manager"
+    pic: "massimo-redigolo.png"
+  - name: "Patrik Roslund"
+    title: "Head Customer Operations"
+    pic: "patrick-roslund.png"
+
+sales-locations:
+  - shop: "AMAG Autowelt Zürich"
+    address: "Giessenstrasse 4 8600 Dübendorf / T +41 44 325 45 45"
+    sales_title: "Sales"
+    sales: "VW, Audi, Seat, Škoda, VW Nutzfahrzeuge"
+    servie_title: "Service"
+    service: "VW, Audi, Seat, Škoda, VW Nutzfahrzeuge"
+    google_maps: "/"
+  - shop: "AMAG Zug"
+    address: "Alte Steinhauserstrasse 1 6330 Cham / T +41 41 748 57 57"
+    sales_title: "Sales"
+    sales: "VW, Audi, Seat, Škoda, VW Nutzfahrzeuge"
+    servie_title: "Service"
+    service: "VW, Audi, Seat, Škoda, VW Nutzfahrzeuge"
+    google_maps: "/"
+
+contact:
+  en:
+    section_p: "Do you have a question or do you have suggestions for our services?"
+    question: "Question"
+    feedback: "Feedback"
+    complaint: "Complaint"
+    male: "Mr."
+    female: "Mrs."
+    company: "Company"
+    first-name: "First name*"
+    last-name: "Last name*"
+    e-mail: "E-Mail address*"
+    phone: "Phone"
+    message: "Message*"
+    send: "Send"
+    positive: "Thanks for your interest! We have received your message and will contact you as soon as possible."
+    negative: "There has been a problem, please try again."
+  fr:
+    section_p: "Vous avez une question ou des suggestions pour nos services ?"
+    question: "Question"
+    feedback: "Feedback"
+    complaint: "Réclamation"
+    male: "Monsieur"
+    female: "Madame"
+    company: "Company"
+    first-name: "Prénom*"
+    last-name: "Nom de famille*"
+    e-mail: "E-Mail*"
+    phone: "Téléphone"
+    message: "Message*"
+    send: "Envoyer"
+    positive: "Merci de votre intérêt ! Nous avons reçu votre message et nous vous contacterons dès que possible."
+    negative: "Il y a un problème, veuillez réessayer."
+  de:
+    section_p: "Haben Sie Fragen oder Anregungen zu unseren Dienstleistungen?"
+    question: "Frage"
+    feedback: "Rückmeldung"
+    complaint: "Beschwerde"
+    male: "Herr"
+    female: "Frau"
+    company: "Company"
+    first-name: "Vorname*"
+    last-name: "Nachname*"
+    e-mail: "E-Mail Adresse*"
+    phone: "Telefon"
+    message: "Nachricht*"
+    send: "Senden"
+    positive: "Vielen Dank für Ihr Interesse! Wir haben Ihre Nachricht erhalten und kontaktieren Sie sobald als möglich."
+    negative: "Es gibt ein Problem, bitte versuchen Sie es erneut."
+  it:
+    section_p: "Avete una domanda o suggerimenti per i nostri servizi?"
+    question: "Domanda"
+    feedback: "Feedback"
+    complaint: "Reclamo"
+    male: "Signor"
+    female: "Signora"
+    company: "Company"
+    first-name: "Nome*"
+    last-name: "Cognome*"
+    e-mail: "Indirizzo e-mail*"
+    phone: "Telefono"
+    message: "Messaggio*"
+    send: "Inviare"
+    positive: "Grazie per il vostro interesse! Abbiamo ricevuto il vostro messaggio e vi contatteremo al più presto."
+    negative: "Si è verificato un problema, riprova."
+
+
+
+
+nav:
+  en:
+    features:
+      name: "Features"
+      url: "#features"
+    partners:
+      name: "Services"
+      url: "#services"
+    how-it-works:
+      name: "How to do"
+      url: "#how-to-do"
+  fr:
+    features:
+      name: "Fonctionnalités"
+      url: "#fonctionnalites"
+    partners:
+      name: "Services"
+      url: "#services"
+    how-it-works:
+      name: "Comment ça marche?"
+      url: "#comment-ca-marche"
+  de:
+    features:
+      name: "Features"
+      url: "#features"
+    partners:
+      name: "Services"
+      url: "#services"
+    how-it-works:
+      name: "Wie funktioniert’s?"
+      url: "#wie-funktioniert-s"      
+  it:
+    features:
+      name: "Funzioni"
+      url: "#funzioni"
+    partners:
+      name: "Servizi"
+      url: "#servizi"
+    how-it-works:
+      name: "Come funziona"
+      url: "#come-funziona"      
+
+thankyou:
+  en:
+    message: "Thanks for your interest! We have received your message and will contact you as soon as possible."
+  fr:
+    message: "Merci de votre intérêt ! Nous avons reçu votre message et nous vous contacterons dès que possible."
+  de:
+    message: "Vielen Dank für Ihr Interesse! Wir haben Ihre Nachricht erhalten und kontaktieren Sie sobald als möglich."
+  it:
+    message: "Grazie per il vostro interesse! Abbiamo ricevuto il vostro messaggio e vi contatteremo al più presto."
+
+
+
+# Build settings
+markdown: kramdown
+
+include: ["_pages"]
+exclude: [node_modules, gulpfile.js, gulp.js, package.json, package-lock.json, yarn.lock, Gemfile, Gemfile.lock, firebase.json ]

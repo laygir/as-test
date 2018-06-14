@@ -1,0 +1,23 @@
+<section id="cta-photo" class="cta-photo container my-5">
+    
+    {%- for element in site.cta-photo[page.lang] -%}
+    <div class="row">
+
+        <div class="col-10 col-md-12 py-5 py-lg-5 mx-auto text-center bg-shadow" style="background: url({{ site.baseurl }}/assets/cta-photo-placeholder.jpg); background-size: cover;">
+
+            <h1 class="display-4 font-weight-normal mt-5">{{ element[1].section_title }}</h1>
+            <p class="lead font-weight-normal">{{ element[1].section_p }}</p>
+            <div class="app-store-push md-app-store pt-3 mb-5">
+                <a href="{{ site.appstore.apple }}" target="_blank" class="btn-app-store apple" role="button" title="Download autoSense app from Apple App Store"></a>
+                <a href="{{ site.appstore.google }}" target="_blank" class="btn-app-store google" role="button" title="Download autoSense app from Google Play Store"></a>    
+            </div>    
+            
+        </div>
+
+
+
+    </div>
+
+    {%- endfor -%}
+
+</section>

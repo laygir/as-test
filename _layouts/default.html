@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include warning.html %}
+
+    {% include header.html %}
+
+    {{ content }}   
+
+    {% include footer.html %}
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="{{ "/js/flickity.pkgd.min.js" | prepend: site.baseurl }}"></script>
+
+    <script src="{{ "/js/autosense.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/compatcheck.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/kontakt.js" | prepend: site.baseurl }}"></script>
+
+    
+    
+    
+    {% if page.lang == 'en' %}
+      <script>
+        var languages = ['it', 'fr', 'de'];
+        var lang = navigator.language || navigator.userLanguage;
+        var stripped = lang.split('-').shift();
+        if (languages.indexOf(stripped) !== -1) {
+          window.location.href = '/' + stripped;
+        }
+      </script>
+    {% endif %}
+
+
+    {% if page.ref == 'where-to-install' %}
+      <!-- passes 'locator' parameter to CompatCheck only if the current page.ref is 'where-to-install' -->
+      {% assign locator="locator" | jsonify %}
+    {% endif %}
+
+    <script>$(document).ready(function () {
+        CompatCheck.init({{ locator }});
+      });</script>
+
+  </body>
+
+</html>

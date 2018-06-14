@@ -1,0 +1,85 @@
+{% assign element=site.contact[page.lang] %}
+
+<div class="row no-gutter">
+    <div class="form-container container">
+        <form class="form" onsubmit="return checkAndSubmitContactForm()"  method="POST" action="https://formspree.io/info@autosense.ch">
+            <div class="subtitle mb-3">{{ element.section_p }}</div>
+
+            <div class="first-radio-buttons-container">
+                <input type="radio" id="kundenanfrage" name="inquiry" class="radio-button-form" value="Kundenanfrage" checked>
+                <label for="kundenanfrage" class="radio-button-form-text">{{ element.question }}</label>
+                <input type="radio" id="partnerschaftsanfrage" name="inquiry" class="radio-button-form" value="Partnerschaftsanfrage">
+                <label for="partnerschaftsanfrage" class="radio-button-form-text">{{ element.feedback }}</label>
+                <input type="radio" id="anregungen" name="inquiry" class="radio-button-form" value="Anregungen">
+                <label for="anregungen" class="radio-button-form-text">{{ element.complaint }}</label>
+            </div>
+
+
+
+            <div class="radio-gender my-3">
+                <input type="radio" id="herr" name="Gender" class="radio-button-form" value="{{ element.female }}" checked>
+                <label for="herr" class="radio-button-form-text herr">{{ element.female }}</label>
+                <input type="radio" id="frau" name="Gender" class="radio-button-form" value="{{ element.male }}">
+                <label for="frau" class="radio-button-form-text">{{ element.male }}</label>
+            </div>
+
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">{{ element.first-name }}</span>
+                </div>
+                <input type="text" class="form-control required" id="vorname" name="{{ element.first-name }}" aria-label="{{ element.first-name }}" aria-describedby="{{ element.first-name }}">
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">{{ element.last-name }}</span>
+                </div>
+                <input type="text" class="form-control required" id="nachname" name="{{ element.last-name }}" aria-label="{{ element.last-name }}" aria-describedby="{{ element.last-name }}">
+            </div>
+            
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" >{{ element.e-mail }}</span>
+                </div>
+                <input id="email" type="text required" id="email" class="form-control required" name="_replyto" aria-label="{{ element.e-mail }}" aria-describedby="{{ element.e-mail }}">
+            </div>
+            
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="telefon">{{ element.phone }}</span>
+                    <span class="input-group-text" id="telefon-ext">+41</span>
+                </div>
+                <input id="telefon" type="text required" class="form-control required" name="{{ element.phone }}" aria-label="{{ element.phone }}" aria-describedby="{{ element.phone }}">
+            </div>
+            
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">{{ element.message }}</span>
+                </div>
+                <textarea id="nachricht" class="form-control required" name="{{ element.message }}" aria-label="{{ element.message }}"></textarea>
+            </div>
+
+
+            <div class="col-12 text-md-right p-0">
+                <button type="submit" class="btn btn-primary my-3" >
+                    {{ element.send }}
+                </button>
+            </div>
+
+
+            {% assign pages=site.pages | where:"lang", page.lang %}
+            {%- for my_page in pages -%}
+                {%- if my_page.ref == 'thanks' -%}
+                     {% assign thankyou=my_page.url | prepend: site.baseurl %}
+                {%- endif -%}
+            {%- endfor -%}
+
+            
+ 
+            <input type="hidden" name="_language" value="{{ page.lang }}" />
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="hidden" name="_next" value="{{ thankyou }}" />
+        </form>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg container fixed-top navbar-light bg-light lift">
+
+  <!-- Brand -->
+  <a class="navbar-brand" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">
+    <img src="{{ site.baseurl }}/assets/autosense-logo.svg" alt="autoSense" width="119" height="53">
+  </a>
+  
+  <!-- Banner -->
+  <div id="fleet-banner" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+      {{ site.banner-b2c[page.lang].text }} <a href="{{ site.fleeturl }}" class="banner-btn" role="button">{{ site.banner-b2c[page.lang].button }}</a>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+      </button>
+  </div>
+
+
+  <!-- Mobile Nav -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Nav -->
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      {% assign pages=site.pages | where:"lang", page.lang %}
+      {%- for nav-item in pages -%}
+        {%- if nav-item.sub-page == false and nav-item.ref != 'thanks' and nav-item.ref != 'fleet' -%}  
+            <li class="nav-item">
+              <a class="nav-link" href="{{ nav-item.url | prepend: site.baseurl }}">{{ nav-item.title }}</a>
+            </li>  
+        {%- endif -%}
+      {%- endfor -%}      
+    </ul>
+
+      {%- for nav-item in pages -%}
+        {%- if nav-item.ref == 'price' -%}  
+          <a class="btn btn-primary" href="{{ nav-item.url | prepend: site.baseurl }}" role="button">{{ nav-item.title }}</a>
+        {%- endif -%}
+      {%- endfor -%}      
+
+    </div>
+
+</nav>

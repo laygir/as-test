@@ -1,0 +1,43 @@
+<section id="{{ site.nav[page.lang].features.url | remove: "#" }}" class="features container">
+    
+    <div class="angle-blue"></div>
+
+    {%- for items in site.feature-content[page.lang] -%}
+
+    <div class="intro">
+        <h1>{{ items.title }}</h1>
+        <p>{{ items.subtitle }}</p>
+    </div>
+
+    
+    <!-- Features Carousel Navigation HTML init -->
+    <div class="carousel features-nav" data-flickity='{ "asNavFor": ".features-carousel", "contain": true, "pageDots": false, "prevNextButtons": false, "draggable": false, "wrapAround": false }'>
+        {% for feature in items.content %}
+            <div class="carousel-cell">
+                <img src="{{ site.baseurl }}/assets/{{ site.feature-attributes[forloop.index0].iconfile }}">
+                <p>{{ feature.title }}</p>
+            </div>
+        {% endfor %}        
+    </div>
+
+
+    <!-- Features Carousel HTML init -->
+    <div class="carousel features-carousel" data-flickity='{ "wrapAround": true, "prevNextButtons": false, "pageDots": true, "adaptiveHeight": true }'>
+        {% for feature in items.content %}        
+            <div class="carousel-cell">
+                <div id="features-item" class="{{ site.feature-attributes[forloop.index0].class }}">
+                    <h4>
+                        {%- if feature.title-card -%}
+                            {{ feature.title-card }}
+                        {%- else -%}
+                            {{ feature.title }}
+                        {%- endif -%}
+                    </h4>
+                    <p>{{ feature.text }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    {%- endfor -%}
+</section>

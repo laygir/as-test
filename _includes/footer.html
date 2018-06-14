@@ -1,0 +1,114 @@
+<section id="footer" class="footer container py-5">
+
+    <div class="angle-blue"></div>
+
+    {%- for element in site.footer[page.lang] -%}
+
+    <div class="row no-gutters">
+
+      <div class="col-12 mx-auto col-sm-6 col-md-6 col-lg-2 col-xl-3 text-center text-md-center text-lg-left py-3 p-lg-0">
+        <ul class="list-group">
+          {% assign pages=site.pages | where:"lang", page.lang %}
+          {%- for my_page in pages -%}
+            {%- if my_page.sub-page == false or my_page.ref == 'price' or my_page.ref == 'fleet' -%}
+              {%- if my_page.ref != 'thanks' -%}
+                <li class="nav-item list-unstyled text-small">
+                  <a class="nav-link" href="{%- if my_page.external-link -%} {{ my_page.external-link }} {% else %} {{ my_page.url | prepend: site.baseurl }} {% endif %}">{{ my_page.title }}</a>
+                </li>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </div>
+
+
+
+      <div class="col-12 mx-auto col-sm-6 col-md-6 col-lg-3 text-center text-md-center text-lg-left py-3 p-lg-0">
+        <ul class="list-group">
+          {% assign pages=site.pages | where:"lang", page.lang %}
+          {%- for my_page in pages -%}
+            {%- if my_page.sub-page -%}  
+            <li class="nav-item list-unstyled text-small">
+                <a class="nav-link" target="{%- if my_page.external-link -%}{{ '_blank' }}{% else %}{{ '_self' }}{% endif %}" href="{%- if my_page.external-link -%} {{ my_page.external-link }} {% else %} {{ my_page.url | prepend: site.baseurl }} {% endif %}">{{ my_page.title }}</a>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}   
+        </ul>
+      </div>
+
+
+
+      <div class="col-12 col-md-8 offset-md-2 offset-lg-0 col-lg-4 p-3 p-md-2 p-lg-0 text-center text-lg-left">
+
+        <!-- Includes Mailchimp form -->
+        {% if page.lang == 'de' %}
+          {% include mailchimp.html %}
+        {% endif %}
+    
+      </div>
+
+
+
+      <div class="col-12 col-md-8 offset-md-2 offset-lg-0 col-lg-3 col-xl-2 text-center text-lg-right pt-3 p-lg-0">
+
+        <!-- App store logo --> 
+        <a href="{{ site.appstore.apple }}" target="_blank" class="btn-app-store apple mb-lg-3" role="button" title="Download autoSense app from Apple App Store"></a>
+        <a href="{{ site.appstore.google }}" target="_blank" class="btn-app-store google" role="button" title="Download autoSense app from Google Play Store"></a>    
+        
+      </div>
+
+
+      <div class="col-12 col-sm-8 offset-sm-2 col-lg-9 offset-lg-0 mt-3 px-lg-0 d-flex align-items-center justify-content-center justify-content-lg-start align-middle text-center text-lg-left">
+          <p class="m-0">{{ element[1].section_address }}</p>
+      </div>
+      <div class="col-12 col-lg-3 mt-3 text-center text-lg-right">
+          <button type="button" class="btn btn-light lang-switcher" data-toggle="modal" data-target="#lang-switcher">
+              <span>{{ site.flags[page.lang] }}</span>
+              <span>{{ page.lang-name }}</span>
+            </button>
+      </div>
+
+
+      
+      <!-- Language Switcher -->
+      <div class="modal fade" id="lang-switcher" tabindex="-1" role="dialog" aria-labelledby="lang-switcher-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+          <div class="modal-content">
+
+            <div class="modal-header text-center mx-auto">
+              <h5 class="modal-title" id="lang-switcher-label">{{ element[1].section_lang_switcher }}</h5>
+            </div>
+
+            <div class="modal-body">
+              {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+              {% assign flags=site.flags %}
+ 
+              <div class="row">
+                <div class="col-5 text-right">
+                  {% for flag in flags %}
+                    <div class="flag">{{ flag[1] }}</div>
+                  {% endfor %}
+                </div>
+
+                <div class="col-5 text-left p-0 ">
+                  {% for page in pages %}
+                    <div class="lang-name pl-2 {{ page.lang }}"><a href="{{ page.url | prepend: site.baseurl }}" class="d-block">{{ page.lang-name }}</a></div>
+                  {% endfor %}
+                </div>
+              </div>
+  
+            </div>
+
+          </div>
+        </div>
+      </div>
+        
+
+
+    </div>
+
+    {%- endfor -%}
+
+</section>
+
+

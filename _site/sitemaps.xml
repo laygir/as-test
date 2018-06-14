@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  
+    
+      <url>
+        <loc>/en/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/en/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/#fonctionnalites</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#fonctionnalites" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#features" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#funzioni" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#features" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/#features</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#fonctionnalites" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#features" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#funzioni" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#features" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/#funzioni</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#fonctionnalites" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#features" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#funzioni" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#features" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/#features</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#fonctionnalites" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#features" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#funzioni" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#features" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/l-installazione-e-la-seguente/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/l-installazione-e-la-seguente/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/where-to-install/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/installationshinweis/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/informations-d-installation/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/where-to-install/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/l-installazione-e-la-seguente/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/where-to-install/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/installationshinweis/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/informations-d-installation/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/installationshinweis/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/l-installazione-e-la-seguente/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/where-to-install/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/installationshinweis/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/informations-d-installation/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/informations-d-installation/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/l-installazione-e-la-seguente/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/where-to-install/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/installationshinweis/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/informations-d-installation/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/faq/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/faq/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/faq/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/faq/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/faq/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/faq/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/faq/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/faq/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/faq/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/#services</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#services" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#servizi" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#services" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#services" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/#servizi</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#services" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#servizi" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#services" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#services" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/#services</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#services" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#servizi" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#services" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#services" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/#services</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#services" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#servizi" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#services" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#services" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/chi-siamo/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/chi-siamo/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/a-propos-de-nous/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about-us/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/uber-uns/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/a-propos-de-nous/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/chi-siamo/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/a-propos-de-nous/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about-us/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/uber-uns/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/about-us/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/chi-siamo/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/a-propos-de-nous/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about-us/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/uber-uns/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/uber-uns/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/chi-siamo/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/a-propos-de-nous/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about-us/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/uber-uns/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/#how-to-do</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#how-to-do" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#wie-funktioniert-s" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#comment-ca-marche"" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#come-funziona"" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/#wie-funktioniert-s</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#how-to-do" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#wie-funktioniert-s" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#comment-ca-marche"" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#come-funziona"" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/#comment-ca-marche"</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#how-to-do" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#wie-funktioniert-s" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#comment-ca-marche"" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#come-funziona"" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/#come-funziona"</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#how-to-do" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#wie-funktioniert-s" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#comment-ca-marche"" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#come-funziona"" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/protezione-dei-dati/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/protezione-dei-dati/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/datenschutz/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/protection-des-donnees/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/data-protection/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/datenschutz/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/protezione-dei-dati/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/datenschutz/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/protection-des-donnees/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/data-protection/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/protection-des-donnees/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/protezione-dei-dati/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/datenschutz/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/protection-des-donnees/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/data-protection/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/data-protection/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/protezione-dei-dati/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/datenschutz/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/protection-des-donnees/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/data-protection/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/legal-notice/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/impressum/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/note-legali/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/mentions-legales/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/impressum/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/impressum/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/note-legali/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/mentions-legales/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/note-legali/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/impressum/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/note-legali/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/mentions-legales/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/mentions-legales/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/legal-notice/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/impressum/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/note-legali/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/mentions-legales/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/#CompatCheck</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#CompatCheck" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/#CompatCheck</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#CompatCheck" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/#CompatCheck</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#CompatCheck" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/#CompatCheck</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/#CompatCheck" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/#CompatCheck" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/responsabilite/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/responsabilite/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/disclaimer-of-liability/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/esclusione-di-responsabilita/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/haftungsausschluss/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/disclaimer-of-liability/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/responsabilite/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/disclaimer-of-liability/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/esclusione-di-responsabilita/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/haftungsausschluss/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/esclusione-di-responsabilita/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/responsabilite/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/disclaimer-of-liability/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/esclusione-di-responsabilita/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/haftungsausschluss/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/haftungsausschluss/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/responsabilite/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/disclaimer-of-liability/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/esclusione-di-responsabilita/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/haftungsausschluss/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/contact/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/contact/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/contatto/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/contact/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/kontakt/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/contatto/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/contact/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/contatto/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/contact/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/kontakt/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/contact/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/contact/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/contatto/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/contact/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/kontakt/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/kontakt/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/contact/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/contatto/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/contact/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/kontakt/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/commander/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/commander/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/order/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/ordinazione/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/bestellen/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/order/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/commander/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/order/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/ordinazione/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/bestellen/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/ordinazione/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/commander/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/order/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/ordinazione/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/bestellen/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/bestellen/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/commander/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/order/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/ordinazione/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/bestellen/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fleet/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/fleet/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fleet/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/fleet/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fleet/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/fleet/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fleet/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/fleet/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/fleet/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/css/main.css</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/sitemaps.xml</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/thank-you/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thank-you/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/grazie/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/vielen-dank/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/merci/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/it/grazie/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thank-you/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/grazie/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/vielen-dank/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/merci/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/de/vielen-dank/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thank-you/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/grazie/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/vielen-dank/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/merci/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/fr/merci/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/thank-you/" />
+        
+          <xhtml:link rel="alternate" hreflang="it" href="/it/grazie/" />
+        
+          <xhtml:link rel="alternate" hreflang="de" href="/de/vielen-dank/" />
+        
+          <xhtml:link rel="alternate" hreflang="fr" href="/fr/merci/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/feed.xml</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+  </urlset>

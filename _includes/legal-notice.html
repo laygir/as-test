@@ -1,0 +1,28 @@
+<div class="row no-gutter">
+    <div class="col mb-5 ">
+
+        <h3 class="mb-3">{{ site.legal-notice[page.lang].contact_title }}</h3>
+        <p class="mb-3">{{ site.legal-notice[page.lang].contact_address }}</p>
+        <h3 class="mb-3 mt-4">{{ site.legal-notice[page.lang].commercial_title }}</h3>
+        <p class="mb-3">{{ site.legal-notice[page.lang].commercial_content }}</p>
+
+    
+        <div class="mt-4 w-50">
+
+        <ul class="list-group">
+          {% assign pages=site.pages | where:"lang", page.lang %}
+          {%- for my_page in pages -%}
+            {%- if my_page.ref == 'data-protection' or my_page.ref == 'about' or my_page.ref == 'disclaimer' -%}
+              {%- if my_page.ref != 'thanks' -%}
+                <li class="nav-item list-unstyled text-small">
+                  <a class="btn btn-primary btn-lg nav-link" href="{%- if my_page.external-link -%} {{ my_page.external-link }} {% else %} {{ my_page.url | prepend: site.baseurl }} {% endif %}">{{ my_page.title }}</a>
+                </li>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+
+        </div>
+
+    </div>
+</div>
